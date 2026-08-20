@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: c:\users\tdxt\onedrive\documents\github\
-Date        : 08/19/2026     Time:   19:23:02
+Date        : 08/19/2026     Time:   19:24:30
 
 
  SYSTEM OF UNITS:
@@ -93,12 +93,12 @@ Date        : 08/19/2026     Time:   19:23:02
 
 
   T O T A L  S Y S T E M  D A T A                        
-   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       43404
-   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          72
-   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =        7024
-   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       14948
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       42828
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          71
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =        6888
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       14756
 
-   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1443551
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1419286
    NUMBER OF PARTS  . . . . . . . . . . . . .  (NPARTS)  =           1
 
 
@@ -106,12 +106,12 @@ Date        : 08/19/2026     Time:   19:23:02
 
   S O L U T I O N   T I M E   l O G   (In Second)
 
-  Input Phase and Contact/Bond/Connector set up .......=    0.3
+  Input Phase and Contact/Bond/Connector set up .......=    0.2
   Stiffness + Contact + Connectors Computation  .......=    0.1
   SVD Solver ..........................................=    0.0
   Re-organization of Modeshapes .......................=    0.0
 
-  TOTAL SOLUTION ......................................=    0.4
+  TOTAL SOLUTION ......................................=    0.3
 
 
 
@@ -135,7 +135,7 @@ Date        : 08/19/2026     Time:   19:23:02
 
 
 
- TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.198355E+00
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.196181E+00
 
              D I S P L A C E M E N T S
 
@@ -144,16 +144,16 @@ Date        : 08/19/2026     Time:   19:23:02
 
  MINIMUM/MAXIMUM DISPLACEMENTS
 
-  NODE       159        14846        11517            1            1            1
-  MIN.  -8.41671E-07 -9.15171E-05 -6.82250E-05   0.0000       0.0000       0.0000    
+  NODE     12841         6080        13557            1            1            1
+  MIN.  -8.61813E-07 -9.00347E-05 -6.69141E-05   0.0000       0.0000       0.0000    
 
-  NODE      1796        13589         9482        14948        14948        14948
-  MAX.   1.12400E-06  9.15177E-05  1.45467E-04   0.0000       0.0000       0.0000    
+  NODE       126         7817        13325        14756        14756        14756
+  MAX.   1.02182E-06  9.00330E-05  1.43811E-04   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
   NODE      1649
-  MAX.   1.45535E-04
+  MAX.   1.43871E-04
 
 
 
@@ -166,7 +166,7 @@ Date        : 08/19/2026     Time:   19:23:02
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. 0.7153E-05 0.1995E-01 -.2813E+04 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. -.7674E-06 0.2000E-01 -.2813E+04 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -175,17 +175,17 @@ Date        : 08/19/2026     Time:   19:23:02
  MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
 ********************************************************************************
 
-  NODE     14024
-  MAX.     0.11882E+09
+  NODE     11690
+  MAX.     0.11750E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.198696E+00
-   Total Error Energy (TEE)         =  0.204569E-02
-   Ave. Percentage Error (APE)      =  0.715643E+01
+   Total Strain Energy (TSE)        =  0.196541E+00
+   Total Error Energy (TEE)         =  0.196242E-02
+   Ave. Percentage Error (APE)      =  0.704813E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
