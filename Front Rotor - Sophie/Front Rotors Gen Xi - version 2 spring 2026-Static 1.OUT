@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: c:\users\tdxt\onedrive\documents\github\
-Date        : 08/19/2026     Time:   19:17:17
+Date        : 08/19/2026     Time:   19:23:02
 
 
  SYSTEM OF UNITS:
@@ -93,12 +93,12 @@ Date        : 08/19/2026     Time:   19:17:17
 
 
   T O T A L  S Y S T E M  D A T A                        
-   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       43719
-   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          71
-   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =        7052
-   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       15053
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       43404
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          72
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =        7024
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       14948
 
-   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1450897
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1443551
    NUMBER OF PARTS  . . . . . . . . . . . . .  (NPARTS)  =           1
 
 
@@ -106,12 +106,12 @@ Date        : 08/19/2026     Time:   19:17:17
 
   S O L U T I O N   T I M E   l O G   (In Second)
 
-  Input Phase and Contact/Bond/Connector set up .......=    0.2
+  Input Phase and Contact/Bond/Connector set up .......=    0.3
   Stiffness + Contact + Connectors Computation  .......=    0.1
   SVD Solver ..........................................=    0.0
   Re-organization of Modeshapes .......................=    0.0
 
-  TOTAL SOLUTION ......................................=    0.3
+  TOTAL SOLUTION ......................................=    0.4
 
 
 
@@ -135,7 +135,7 @@ Date        : 08/19/2026     Time:   19:17:17
 
 
 
- TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.198561E+00
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.198355E+00
 
              D I S P L A C E M E N T S
 
@@ -144,16 +144,16 @@ Date        : 08/19/2026     Time:   19:17:17
 
  MINIMUM/MAXIMUM DISPLACEMENTS
 
-  NODE       189        14868         1714            1            1            1
-  MIN.  -8.08677E-07 -9.23488E-05 -6.91452E-05   0.0000       0.0000       0.0000    
+  NODE       159        14846        11517            1            1            1
+  MIN.  -8.41671E-07 -9.15171E-05 -6.82250E-05   0.0000       0.0000       0.0000    
 
-  NODE        90        14471         1783        15053        15053        15053
-  MAX.   8.46898E-07  9.23760E-05  1.45693E-04   0.0000       0.0000       0.0000    
+  NODE      1796        13589         9482        14948        14948        14948
+  MAX.   1.12400E-06  9.15177E-05  1.45467E-04   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
-  NODE     14909
-  MAX.   1.45772E-04
+  NODE      1649
+  MAX.   1.45535E-04
 
 
 
@@ -166,7 +166,7 @@ Date        : 08/19/2026     Time:   19:17:17
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. 0.3785E-05 0.2006E-01 -.2813E+04 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. 0.7153E-05 0.1995E-01 -.2813E+04 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -175,17 +175,17 @@ Date        : 08/19/2026     Time:   19:17:17
  MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
 ********************************************************************************
 
-  NODE     13084
-  MAX.     0.12313E+09
+  NODE     14024
+  MAX.     0.11882E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.198866E+00
-   Total Error Energy (TEE)         =  0.167979E-02
-   Ave. Percentage Error (APE)      =  0.648511E+01
+   Total Strain Energy (TSE)        =  0.198696E+00
+   Total Error Energy (TEE)         =  0.204569E-02
+   Ave. Percentage Error (APE)      =  0.715643E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
