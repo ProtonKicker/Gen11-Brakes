@@ -1,16 +1,18 @@
 [StartTime]
-Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=1s
+Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=
 [SolverState]
 Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=2
 [MainFrame]
 Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJLCAAAAALLBAAAAABCEAAAAAOICAAAAA
 [ShowMin]
-Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=No
+Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=yes
 [SolverType]
 Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=Linear Analysis
 [StudyType]
-Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=0
+Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=-1
 [StudyName]
 Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=Static 1
 [Solver]
 Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=Sparse
+[Dynamic]
+Front Rotors Gen Xi - version 2 spring 2026-Static 1.MFC=0
