@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: C:\Users\tdxt\OneDrive\Documents\GitHub\
-Date        : 08/20/2026     Time:   23:26:17
+Date        : 08/20/2026     Time:   23:27:29
 
 
  SYSTEM OF UNITS:
@@ -93,12 +93,12 @@ Date        : 08/20/2026     Time:   23:26:17
 
 
   T O T A L  S Y S T E M  D A T A                        
-   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       70401
-   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          76
-   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       11903
-   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       23947
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       68037
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          75
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       11376
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       23159
 
-   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     2432779
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     2333163
    NUMBER OF PARTS  . . . . . . . . . . . . .  (NPARTS)  =           1
 
 
@@ -135,7 +135,7 @@ Date        : 08/20/2026     Time:   23:26:17
 
 
 
- TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.194294E+00
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.235064E+00
 
              D I S P L A C E M E N T S
 
@@ -144,16 +144,16 @@ Date        : 08/20/2026     Time:   23:26:17
 
  MINIMUM/MAXIMUM DISPLACEMENTS
 
-  NODE      1150         3681         3690            1            1            1
-  MIN.  -5.55459E-07 -6.06557E-05 -5.91949E-05   0.0000       0.0000       0.0000    
+  NODE     15810        20938         3603            1            1            1
+  MIN.  -6.26647E-07 -6.80741E-05 -6.96466E-05   0.0000       0.0000       0.0000    
 
-  NODE       439         3732         3638        23947        23947        23947
-  MAX.   5.56237E-07  1.94021E-05  2.04892E-05   0.0000       0.0000       0.0000    
+  NODE       228        21133         3548        23159        23159        23159
+  MAX.   9.84079E-07  2.39395E-05  2.43674E-05   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
-  NODE      3683
-  MAX.   7.82122E-05
+  NODE     14479
+  MAX.   9.02931E-05
 
 
 
@@ -166,7 +166,7 @@ Date        : 08/20/2026     Time:   23:26:17
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. 0.1383E-04 0.3978E+04 0.3978E+04 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. -.1717E-04 0.3978E+04 0.3978E+04 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -175,17 +175,17 @@ Date        : 08/20/2026     Time:   23:26:17
  MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
 ********************************************************************************
 
-  NODE      1322
-  MAX.     0.17123E+09
+  NODE      1376
+  MAX.     0.16151E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.194404E+00
-   Total Error Energy (TEE)         =  0.103462E-02
-   Ave. Percentage Error (APE)      =  0.515164E+01
+   Total Strain Energy (TSE)        =  0.235274E+00
+   Total Error Energy (TEE)         =  0.216574E-02
+   Ave. Percentage Error (APE)      =  0.676868E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
