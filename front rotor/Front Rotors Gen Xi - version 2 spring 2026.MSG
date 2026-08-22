@@ -14,3 +14,13 @@ Start study: Position 4 Saturday, August 22, 2026 12:32:00 AM
 End study: Position 4 Saturday, August 22, 2026 12:32:05 AM
 Start study: Position 5 Saturday, August 22, 2026 12:32:08 AM
 End study: Position 5 Saturday, August 22, 2026 12:32:09 AM
+Start study: Rev Position 5 Saturday, August 22, 2026 11:00:29 AM
+End study: Rev Position 5 Saturday, August 22, 2026 11:00:34 AM
+Start study: Rev Position 4 Saturday, August 22, 2026 11:00:37 AM
+End study: Rev Position 4 Saturday, August 22, 2026 11:00:38 AM
+Start study: Rev Position 3 Saturday, August 22, 2026 11:00:41 AM
+End study: Rev Position 3 Saturday, August 22, 2026 11:00:46 AM
+Start study: Rev Position 2 Saturday, August 22, 2026 11:00:49 AM
+End study: Rev Position 2 Saturday, August 22, 2026 11:00:54 AM
+Start study: Rev Position 1 Saturday, August 22, 2026 11:00:57 AM
+End study: Rev Position 1 Saturday, August 22, 2026 11:01:01 AM
