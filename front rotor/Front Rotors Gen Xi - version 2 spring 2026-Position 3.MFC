@@ -1,16 +1,18 @@
 [StartTime]
-Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=3s
+Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=2s
 [SolverState]
 Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=2
 [MainFrame]
-Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJLCAAAAALLBAAAAABCEAAAAAOICAAAAA
+Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPLCFAAAAAJOBAAAAADJGAAAAAFBEAAAAA
 [ShowMin]
 Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=No
 [SolverType]
 Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=Linear Analysis
+[StudyName1]
+RunAllStudy=ÿþP
 [StudyType]
 Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=0
 [StudyName]
-Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=Position 3
+Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=ÿþP
 [Solver]
 Front Rotors Gen Xi - version 2 spring 2026-Position 3.MFC=Iterative

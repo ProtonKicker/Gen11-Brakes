@@ -2,3 +2,15 @@ Start study: 1G Braking Friday, August 21, 2026 11:26:11 PM
 End study: 1G Braking Friday, August 21, 2026 11:26:14 PM
 Start study: Downhill Friday, August 21, 2026 11:26:56 PM
 End study: Downhill Friday, August 21, 2026 11:27:03 PM
+Start study: Cycle Saturday, August 22, 2026 12:03:24 AM
+End study: Cycle Saturday, August 22, 2026 12:03:32 AM
+Start study: Position 1 Saturday, August 22, 2026 12:31:43 AM
+End study: Position 1 Saturday, August 22, 2026 12:31:44 AM
+Start study: Position 2 Saturday, August 22, 2026 12:31:47 AM
+End study: Position 2 Saturday, August 22, 2026 12:31:48 AM
+Start study: Position 3 Saturday, August 22, 2026 12:31:52 AM
+End study: Position 3 Saturday, August 22, 2026 12:31:56 AM
+Start study: Position 4 Saturday, August 22, 2026 12:32:00 AM
+End study: Position 4 Saturday, August 22, 2026 12:32:05 AM
+Start study: Position 5 Saturday, August 22, 2026 12:32:08 AM
+End study: Position 5 Saturday, August 22, 2026 12:32:09 AM

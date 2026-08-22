@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: C:\Users\tdxt\OneDrive\Documents\GitHub\
-Date        : 08/21/2026     Time:   23:25:13
+Date        : 08/22/2026     Time:   00:31:49
 
 
  SYSTEM OF UNITS:
@@ -137,7 +137,7 @@ Date        : 08/21/2026     Time:   23:25:13
   SVD Solver ..........................................=    0.0
   Re-organization of Modeshapes .......................=    0.0
 
-  TOTAL SOLUTION ......................................=    0.5
+  TOTAL SOLUTION ......................................=    0.4
 
              D I S P L A C E M E N T S
 
@@ -214,5 +214,5 @@ Date        : 08/21/2026     Time:   23:25:13
 
 
 T O T A L   S O L U T I O N   T I M E (sec) . . . . =       2
-   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         154
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         153
 
