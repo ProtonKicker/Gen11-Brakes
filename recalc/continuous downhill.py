@@ -1,7 +1,8 @@
 # =============================================================================
 # Gen11 Brakes — Continuous Downhill Braking Analysis
-# Goal: Calculate braking force distribution and power/energy distribution
+# Goal: Calculate braking force distribution and braking power distribution
 #       for steady-speed downhill (constant velocity, a = 0)
+# Vehicle: 2 wheels front, 1 wheel rear (three-wheeler from VDR)
 # Note: All calculations refer to front total + rear total
 #       Braking must balance gravity component, not inertia
 # =============================================================================
@@ -86,25 +87,17 @@ heat_total = energy_total
 print("\n" + "="*70)
 print("CONTINUOUS DOWNHILL BRAKING RESULTS")
 print("="*70)
-print(f"\nVehicle: mass={total_mass}kg, wheelbase={axle_distance}m, CoG height={cog_height}m")
-print(f"CoG position: {front_to_cog:.3f}m from front, {rear_to_cog:.3f}m from rear")
-print(f"\nDownhill: {downhill_angle}° slope, {constant_speed}m/s for {downhill_distance}m")
+print(f"\nVehicle: mass={total_mass}kg, wheelbase={axle_distance}m, CoG={cog_height}m")
+print(f"Downhill: {downhill_angle}° slope, {constant_speed}m/s for {downhill_distance}m")
 print(f"Descent time: {descent_time/60:.1f} min")
-print(f"\n--- Normal Loads on Slope ---")
-print(f"Front: {dynamic_weight_front:,.0f}N ({dynamic_weight_front/weight_normal_total*100:.1f}%)")
-print(f"Rear:  {dynamic_weight_rear:,.0f}N ({dynamic_weight_rear/weight_normal_total*100:.1f}%)")
-print(f"\n--- Braking Forces ---")
+print(f"\n--- Braking Force Distribution ---")
 print(f"Front: {dynamic_braking_force_front:,.0f}N ({dynamic_braking_force_front/braking_force_total*100:.1f}%)")
 print(f"Rear:  {dynamic_braking_force_rear:,.0f}N ({dynamic_braking_force_rear/braking_force_total*100:.1f}%)")
 print(f"Total: {braking_force_total:,.0f}N")
-print(f"\n--- Power ---")
-print(f"Front: {power_front:,.0f}W ({power_front/braking_power_total*100:.1f}%)")
-print(f"Rear:  {power_rear:,.0f}W ({power_rear/braking_power_total*100:.1f}%)")
-print(f"Total: {braking_power_total:,.0f}W ({braking_power_total/1000:.2f}kW)")
-print(f"\n--- Energy over {downhill_distance}m ---")
-print(f"Front: {energy_front/1e6:.2f}MJ")
-print(f"Rear:  {energy_rear/1e6:.2f}MJ")
-print(f"Total: {energy_total/1e6:.2f}MJ")
+print(f"\n--- Power (Heating) ---")
+print(f"Front: {power_front/1000:.2f}kW ({power_front/braking_power_total*100:.1f}%)")
+print(f"Rear:  {power_rear/1000:.2f}kW ({power_rear/braking_power_total*100:.1f}%)")
+print(f"Total: {braking_power_total/1000:.2f}kW")
 print("="*70 + "\n")
 
 

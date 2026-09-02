@@ -2,6 +2,7 @@
 # Gen11 Brakes — 1g Dynamic Braking Analysis
 # Goal: Calculate braking force distribution and braking power distribution
 #       for a transient stop (v0 -> 0) under 1g deceleration
+# Vehicle: 2 wheels front, 1 wheel rear (three-wheeler from VDR)
 # All calculations refer to front total + rear total
 # =============================================================================
 
@@ -70,23 +71,16 @@ avg_power = energy_change / stopping_time
 print("\n" + "="*70)
 print("1g DYNAMIC BRAKING RESULTS")
 print("="*70)
-print(f"\nVehicle: mass={total_mass}kg, wheelbase={axle_distance}m, CoG height={cog_height}m")
-print(f"CoG position: {front_to_cog:.3f}m from front, {rear_to_cog:.3f}m from rear")
-print(f"\nBraking: {initial_speed}m/s -> {final_speed}m/s @ {decel/g:.2f}g")
-print(f"Stopping: {stopping_time:.2f}s, {stopping_distance:.1f}m")
-print(f"\n--- Dynamic Normal Loads ---")
-print(f"Front: {dynamic_weight_front:,.0f}N ({dynamic_weight_front/total_weight*100:.1f}%)")
-print(f"Rear:  {dynamic_weight_rear:,.0f}N ({dynamic_weight_rear/total_weight*100:.1f}%)")
-print(f"\n--- Braking Forces ---")
+print(f"\nVehicle: mass={total_mass}kg, wheelbase={axle_distance}m, CoG={cog_height}m")
+print(f"Braking: {initial_speed}m/s -> {final_speed}m/s @ {decel/g:.2f}g")
+print(f"\n--- Braking Force Distribution ---")
 print(f"Front: {dynamic_braking_force_front:,.0f}N ({dynamic_braking_force_front/braking_force_total*100:.1f}%)")
 print(f"Rear:  {dynamic_braking_force_rear:,.0f}N ({dynamic_braking_force_rear/braking_force_total*100:.1f}%)")
 print(f"Total: {braking_force_total:,.0f}N")
-print(f"\n--- Energy ---")
-print(f"Front: {heat_front/1000:.1f}kJ per stop")
-print(f"Rear:  {heat_rear/1000:.1f}kJ per stop")
-print(f"Total: {energy_change/1000:.1f}kJ")
-print(f"\n--- Power ---")
-print(f"Average: {avg_power/1000:.1f}kW")
+print(f"\n--- Power (Heating) ---")
+print(f"Front: {avg_power * dynamic_braking_force_front / braking_force_total / 1000:.1f}kW")
+print(f"Rear:  {avg_power * dynamic_braking_force_rear / braking_force_total / 1000:.1f}kW")
+print(f"Total: {avg_power/1000:.1f}kW")
 print("="*70 + "\n")
 
 
