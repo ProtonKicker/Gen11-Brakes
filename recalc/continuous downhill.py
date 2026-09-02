@@ -1,71 +1,127 @@
-# Goal: Find [braking force distribution] and [braking power distribution]
-# for CONSTANT SPEED downhill (steady-state, a = 0)
-
-# note that all calculations refer to front total + rear total
-# downhill_angle is the slope angle from horizontal (positive downhill)
-# counterintuitive vs 1g dynamic.py: braking must balance gravity component, not inertia
-
+# =============================================================================
+# Gen11 Brakes — Continuous Downhill Braking Analysis
+# Goal: Calculate braking force distribution and power/energy distribution
+#       for steady-speed downhill (constant velocity, a = 0)
+# Note: All calculations refer to front total + rear total
+#       Braking must balance gravity component, not inertia
+# =============================================================================
 
 import math
 
-# constants
+# ############################################################################
+# USER INPUTS — Edit these values for your vehicle and scenario
+# ############################################################################
 
-g = 9.81
+# --- Physics ---
+g = 9.81  # m/s^2, gravitational acceleration
 
-constant_speed = None   # m/s, steady downhill speed (constant)
+# --- Vehicle Parameters (from Gen 11 Mechanical VDR, 2025-26.docx) ---
+total_mass = 281.0          # kg, total vehicle mass
+static_mass_front = 183.0   # kg, static mass on front axle
+static_mass_rear = 98.0     # kg, static mass on rear axle
+
+axle_distance = 2.30       # m, wheelbase (distance between axles)
+cog_height = 0.473        # m, height of CoG above ground (47.30 cm)
+
+# --- Downhill Scenario ---
+constant_speed = None    # m/s, steady downhill speed (constant)
 downhill_angle = None   # degrees, slope angle from horizontal (e.g. 5 deg)
-# if you prefer radians, set downhill_angle_rad directly and replace math.radians() calls
-downhill_distance = None   # m along slope, e.g. 8000 for 8km
-
-total_mass = None
-static_mass_front = None
-static_mass_rear = None
-
-axle_distance = None   # wheelbase, m
-cog_height = None      # height of CoG above ground (normal to ground), m
+downhill_distance = None # m, distance along slope (e.g. 8000 for 8km)
 
 
+# ############################################################################
+# CALCULATIONS — Derived from inputs above
+# ############################################################################
 
-# secondary variables for calculations
-
-## weight stuff
-
-total_weight = total_mass * g   # G = mg
+# Weight calculations
+total_weight = total_mass * g
 static_weight_front = static_mass_front * g
 static_weight_rear = static_mass_rear * g
 
-# CoG position along wheelbase (measured along slope, same as horizontal wheelbase for small angles)
-# original 1g file had these swapped (front_to_cog actually was distance to rear).
-# corrected here for clarity:
-front_to_cog = axle_distance * static_mass_rear / total_mass   # distance from FRONT axle to CoG
-rear_to_cog = axle_distance - front_to_cog                     # distance from REAR axle to CoG
-# which is also = axle_distance * static_mass_front / total_mass
-# for backwards compatibility with 1g file, rear_to_cog is the lever arm that loads the front
+# CoG position (distance from axles)
+front_to_cog = axle_distance * static_mass_rear / total_mass
+rear_to_cog = axle_distance - front_to_cog
 
-# for compatibility check:
-# rear_to_cog_alt = axle_distance * static_mass_front / total_mass  # should equal rear_to_cog above
+# Slope components
+downhill_angle_rad = math.radians(downhill_angle)
+weight_normal_total = total_weight * math.cos(downhill_angle_rad)
+weight_parallel_total = total_weight * math.sin(downhill_angle_rad)
 
-## slope stuff
+# Braking force and power (steady state: a = 0, braking balances gravity)
+braking_force_total = weight_parallel_total
+braking_power_total = braking_force_total * constant_speed
 
-downhill_angle_rad = math.radians(downhill_angle)   # convert deg -> rad
+# Dynamic weight transfer on grade
+dynamic_weight_front = (total_weight * math.cos(downhill_angle_rad) * rear_to_cog + total_weight * math.sin(downhill_angle_rad) * cog_height) / axle_distance
+dynamic_weight_rear = weight_normal_total - dynamic_weight_front
 
-weight_normal_total = total_weight * math.cos(downhill_angle_rad)   # normal to slope
-weight_parallel_total = total_weight * math.sin(downhill_angle_rad) # parallel to slope, downhill
+# Braking force distribution (proportional to dynamic normal loads)
+dynamic_braking_force_front = braking_force_total * dynamic_weight_front / weight_normal_total
+dynamic_braking_force_rear = braking_force_total - dynamic_braking_force_front
 
-## braking force / power (steady state: a = 0, braking balances gravity)
+# Power distribution (proportional to dynamic normal loads)
+power_front = braking_power_total * dynamic_weight_front / weight_normal_total
+power_rear = braking_power_total - power_front
 
-braking_force_total = weight_parallel_total   # F = m*g*sin(theta), constant speed
+# Heat rates (Watts = Joules/second)
+heat_rate_front = power_front
+heat_rate_rear = power_rear
 
-braking_power_total = braking_force_total * constant_speed   # P = F * v, Watts
-# if constant_speed is None, this will error until filled - same as 1g file behaviour
+# Total energy over the full descent
+descent_time = downhill_distance / constant_speed
+energy_total = braking_force_total * downhill_distance
+energy_front = energy_total * dynamic_weight_front / weight_normal_total
+energy_rear = energy_total - energy_front
+
+# Compatibility naming with 1g dynamic.py
+heat_front = energy_front
+heat_rear = energy_rear
+heat_total = energy_total
 
 
-# dynamic weight transfer on grade (moment equilibrium about rear contact patch)
+# ############################################################################
+# RESULTS SUMMARY
+# ############################################################################
 
-""" derivation (steady downhill, constant speed, a=0)
+print("\n" + "="*70)
+print("CONTINUOUS DOWNHILL BRAKING RESULTS")
+print("="*70)
+print(f"\nVehicle: mass={total_mass}kg, wheelbase={axle_distance}m, CoG height={cog_height}m")
+print(f"CoG position: {front_to_cog:.3f}m from front, {rear_to_cog:.3f}m from rear")
+print(f"\nDownhill: {downhill_angle}° slope, {constant_speed}m/s for {downhill_distance}m")
+print(f"Descent time: {descent_time/60:.1f} min")
+print(f"\n--- Normal Loads on Slope ---")
+print(f"Front: {dynamic_weight_front:,.0f}N ({dynamic_weight_front/weight_normal_total*100:.1f}%)")
+print(f"Rear:  {dynamic_weight_rear:,.0f}N ({dynamic_weight_rear/weight_normal_total*100:.1f}%)")
+print(f"\n--- Braking Forces ---")
+print(f"Front: {dynamic_braking_force_front:,.0f}N ({dynamic_braking_force_front/braking_force_total*100:.1f}%)")
+print(f"Rear:  {dynamic_braking_force_rear:,.0f}N ({dynamic_braking_force_rear/braking_force_total*100:.1f}%)")
+print(f"Total: {braking_force_total:,.0f}N")
+print(f"\n--- Power ---")
+print(f"Front: {power_front:,.0f}W ({power_front/braking_power_total*100:.1f}%)")
+print(f"Rear:  {power_rear:,.0f}W ({power_rear/braking_power_total*100:.1f}%)")
+print(f"Total: {braking_power_total:,.0f}W ({braking_power_total/1000:.2f}kW)")
+print(f"\n--- Energy over {downhill_distance}m ---")
+print(f"Front: {energy_front/1e6:.2f}MJ")
+print(f"Rear:  {energy_rear/1e6:.2f}MJ")
+print(f"Total: {energy_total/1e6:.2f}MJ")
+print("="*70 + "\n")
 
-define N1 N2 as dynamic normal loads on front/rear. CoG height = h normal to slope.
-L = axle_distance, b = rear_to_cog (distance CoG to rear, downhill), c = front_to_cog
+
+# =============================================================================
+# DERIVATION NOTES — For reference, not required for operation
+# =============================================================================
+
+"""
+Moment equilibrium about rear axle on a slope (steady-state, a=0):
+
+Define:
+  N1, N2 = dynamic normal loads on front/rear axles
+  L = axle_distance
+  b = rear_to_cog (distance from CoG to rear axle, downhill)
+  c = front_to_cog (distance from CoG to front axle, downhill)
+  h = cog_height (normal to slope)
+  theta = downhill_angle
 
 Coordinates: x downhill along slope, z normal outward from slope.
 Origin at rear contact patch.
@@ -78,11 +134,11 @@ Moment about rear:
   N1 * L + (b*(-W*cos) - h*(W*sin)) = 0
   => N1 * L = W*cos * b + W*sin * h
 
-hence
+Hence:
   N1 = (W*cos * b + W*sin * h) / L
-  N2 = W*cos - N1 = W*cos * c / L - W*sin * h / L
+  N2 = W*cos - N1
 
-On horizontal theta=0 this reduces to N1 = W*b/L (static).
+At theta=0 (horizontal), this reduces to N1 = W*b/L (static).
 
 Braking distribution for ideal (no lockup) is proportional to normal loads:
   B1 = B_total * N1 / (W*cos)
@@ -92,32 +148,6 @@ Power distribution same ratio (P = B * v):
   P1 = P_total * N1 / (W*cos)
   P2 = P_total - P1
 
-Energy per distance = B* distance, energy per time = power.
+Energy per distance = B * distance
+Energy per time = power * time
 """
-
-dynamic_weight_front = (total_weight * math.cos(downhill_angle_rad) * rear_to_cog + total_weight * math.sin(downhill_angle_rad) * cog_height) / axle_distance
-dynamic_weight_rear = weight_normal_total - dynamic_weight_front
-
-dynamic_braking_force_front = braking_force_total * dynamic_weight_front / weight_normal_total
-dynamic_braking_force_rear = braking_force_total - dynamic_braking_force_front
-
-power_front = braking_power_total * dynamic_weight_front / weight_normal_total
-power_rear = braking_power_total - power_front
-
-# alternative: heat per second = power, heat per meter = braking_force
-heat_rate_front = power_front        # Watts to front brakes
-heat_rate_rear = power_rear          # Watts to rear brakes
-
-# total energy / heat over the full descent
-# energy = force * distance, also = power * time
-
-descent_time = downhill_distance / constant_speed   # s, time to complete descent
-
-energy_total = braking_force_total * downhill_distance   # J, also = braking_power_total * descent_time
-energy_front = energy_total * dynamic_weight_front / weight_normal_total
-energy_rear = energy_total - energy_front
-
-# for compatibility with 1g dynamic.py naming:
-heat_front = energy_front
-heat_rear = energy_rear
-heat_total = energy_total
