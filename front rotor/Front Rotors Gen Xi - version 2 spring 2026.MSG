@@ -28,3 +28,12 @@ Start study: Downhill Thursday, September 3, 2026 10:36:55 AM
 End study: Downhill Thursday, September 3, 2026 10:37:01 AM
 Start study: Cycle Thursday, September 3, 2026 10:58:41 AM
 End study: Cycle Thursday, September 3, 2026 10:58:48 AM
+Start study: 1g Nonlinear Thursday, September 3, 2026 11:35:56 AM
+End study: 1g Nonlinear Thursday, September 3, 2026 11:35:56 AM
+Start study: Downhill Nonlinear Thursday, September 3, 2026 11:37:14 AM
+End study: Downhill Nonlinear Thursday, September 3, 2026 11:37:15 AM
+Start study: Cycle Nonlinear Thursday, September 3, 2026 11:39:06 AM
+End study: Cycle Nonlinear Thursday, September 3, 2026 11:39:09 AM
+Unable to create the plot due to:
+
+The requested quantity cannot be found in the result file. You can modify the quantity type under Result Options and rerun the study to plot the requested result.

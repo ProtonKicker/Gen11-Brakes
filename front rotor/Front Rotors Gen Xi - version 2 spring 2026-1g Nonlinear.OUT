@@ -10,7 +10,7 @@
 **        CCC     OO     SSS     M    M     OO     SSS        **
 **                                                            **
 **                                                            **
-**             SOLIDWORKS Simulation 2026 - SP2               **
+**             SOLIDWORKS Simulation 2026 SP2.1               **
 **                 Simulation Premium Package                 **
 **           Distributed By: SOLIDWORKS Corporation           **
 **               21255 Burbank Blvd Suite 400                 **
@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: c:\users\tdxt\onedrive\documents\github\
-Date        : 09/03/2026     Time:   10:29:09
+Date        : 09/03/2026     Time:   11:35:56
 
 
  SYSTEM OF UNITS:
@@ -91,7 +91,7 @@ Date        : 09/03/2026     Time:   10:29:09
           Reference  Temperature =    298.00    
 
 
-     Available memory(GB) . . . . . . . . . . . . . =   16.92
+     Available memory(GB) . . . . . . . . . . . . . =   18.49
  
 
 
@@ -25697,7 +25697,7 @@ R e a c t i o n     F o r c e s   f o r   s t e p     61          (Time = 0.3050
       Total Number of Steps . . . . . . . . .  =   61
       Total Number of Iterations . . . . . . . =   62
 
- MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         753
+ MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         271
 
 
 
@@ -25716,4 +25716,4 @@ R e a c t i o n     F o r c e s   f o r   s t e p     61          (Time = 0.3050
      TOT_TIME =TOTAL SOLUTION TIME
 
      INP_PHASE    STF_PHASE    REN_PHASE    DEC_PHASE    FBS_PHASE    CNT_PHASE    REC_PAHSE    STS_PHASE    PST_PHASE    MISC_TIME     TOT_TIME    
-         0.083       26.682       22.105        9.631        2.294        0.000        0.156        2.734        5.460        1.459       70.604
+         0.041       28.423       25.396       10.576        2.866        0.000        0.238        2.222        6.621        1.503       77.886

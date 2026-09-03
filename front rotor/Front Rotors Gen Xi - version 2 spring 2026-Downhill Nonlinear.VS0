@@ -1,0 +1,251 @@
+ MAS.KSKY ORIGINAL           9
+ I_PCGSWITCH MAIN_RET_2 =            0           0
+ MAS.KSKY 2           9
+ TOTSUR,TOTVOL  7.2937489E-02  1.0336881E-04
+ TOTVOL,TOTSUR,SURVOL  1.0336881E-04  7.2937489E-02   190.5622    
+ TOTVOL,TOTSUR,SURVOL  1.0336881E-04  7.2937489E-02   190.5622               9
+ NSTARMAIN: w/out contact LSTFS LDIG                2454003       73665
+ PROGRESS(0):  KSTEP KEQT IBEND            1           0         100
+  rats  1.121902250454858E-002
+  rats  1.121903271700253E-002
+ PROGRESS(2):  
+ NELCUR IDG_TYPE NS+MC+1 STRBUF,RJ_RATIO_MIN,RJ_RATIO_MAX RHEX8        12286
+           0          45   1.000010       1.00000073598011     
+   2.65537250723544       0.000000000000000E+000
+ PROGRESS(0):  KSTEP KEQT IBEND            2           0         100
+  rats  1.002352634914542E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            3           0         100
+  rats  8.839528120708139E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            4           0         100
+  rats  7.669072588489870E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            5           0         100
+  rats  6.514910936360000E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            6           0         100
+  rats  5.381980932455651E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            7           0         100
+  rats  4.279859943538142E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            8           0         100
+  rats  3.229844667449035E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            9           0         100
+  rats  2.288709686470488E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           10           0         100
+  rats  1.630648749292450E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           11           0         100
+  rats  1.616079920612125E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           12           0         100
+  rats  2.237877533511604E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           13           0         100
+  rats  3.123236940364521E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           14           0         100
+  rats  4.093000285158981E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           15           0         100
+  rats  5.089099738193153E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           16           0         100
+  rats  6.089822122904536E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           17           0         100
+  rats  7.085363565936766E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           18           0         100
+  rats  8.070551348817134E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           19           0         100
+  rats  9.042296376348759E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           20           0         100
+  rats  9.998564697810016E-003
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           21           0         100
+  rats  1.093793026697026E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           22           0         100
+  rats  1.185929092350672E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           23           0         100
+  rats  1.276180126323950E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           24           0         100
+  rats  1.364478809067328E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           25           0         100
+  rats  1.450770967459459E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           26           0         100
+  rats  1.535013251282811E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           27           0         100
+  rats  1.617171465336752E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           28           0         100
+  rats  1.697219636999647E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           29           0         100
+  rats  1.775139184961830E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           30           0         100
+  rats  1.850918522202475E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           31           0         100
+  rats  1.924552443640784E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           32           0         100
+  rats  1.996041725050774E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           33           0         100
+  rats  2.065392952339370E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           34           0         100
+  rats  2.132617960161770E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           35           0         100
+  rats  2.197733631134521E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           36           0         100
+  rats  2.260761410356759E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           37           0         100
+  rats  2.321727094537832E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           38           0         100
+  rats  2.380660306237083E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           39           0         100
+  rats  2.437599141678533E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           40           0         100
+  rats  2.492575046651450E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           41           0         100
+  rats  2.545627268838726E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           42           0         100
+  rats  2.596797697245891E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           43           0         100
+  rats  2.646130199094502E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           44           0         100
+  rats  2.693670623870424E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           45           0         100
+  rats  2.739466211019897E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           46           0         100
+  rats  2.783565453478599E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           47           0         100
+  rats  2.826017766854809E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           48           0         100
+  rats  2.866873123990079E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           49           0         100
+  rats  2.906182002089936E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           50           0         100
+  rats  2.943994904416881E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           51           0         100
+  rats  2.980362245408088E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           52           0         100
+  rats  3.015334374523762E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           53           0         100
+  rats  3.048960911315296E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           54           0         100
+  rats  3.081291022266244E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           55           0         100
+  rats  3.112379143510570E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           56           0         100
+  rats  3.142266416487581E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           57           0         100
+  rats  3.170999338395698E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           58           0         100
+  rats  3.198623392753054E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           59           0         100
+  rats  3.225183095560609E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           60           0         100
+  rats  3.250721583625193E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           61           0         100
+  rats  3.275280787276921E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           62           0         100
+  rats  3.298901384796658E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           63           0         100
+  rats  3.321622731064257E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           64           0         100
+  rats  3.343482847957636E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           65           0         100
+  rats  3.364518368680502E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           66           0         100
+  rats  3.384764698897609E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           67           0         100
+  rats  3.404255798203466E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           68           0         100
+  rats  3.423024330528722E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           69           0         100
+  rats  3.441101746076886E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           70           0         100
+  rats  3.458518013113678E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           71           0         100
+  rats  3.475302087427747E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           72           0         100
+  rats  3.491481491084118E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           73           0         100
+  rats  3.507082739933908E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           74           0         100
+  rats  3.522130922484823E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           75           0         100
+  rats  3.536650258710348E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           76           0         100
+  rats  3.550663763019885E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           77           0         100
+  rats  3.564193387210617E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           78           0         100
+  rats  3.577260124442760E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           79           0         100
+  rats  3.589883876465239E-002
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           80           0         100
+  rats  3.602083735384543E-002
+ PROGRESS(2):  
