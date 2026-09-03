@@ -24,3 +24,5 @@ Start study: Rev Position 2 Saturday, August 22, 2026 11:00:49 AM
 End study: Rev Position 2 Saturday, August 22, 2026 11:00:54 AM
 Start study: Rev Position 1 Saturday, August 22, 2026 11:00:57 AM
 End study: Rev Position 1 Saturday, August 22, 2026 11:01:01 AM
+Start study: Downhill Thursday, September 3, 2026 10:36:55 AM
+End study: Downhill Thursday, September 3, 2026 10:37:01 AM

@@ -13,3 +13,19 @@ front rotor/Front Rotors Gen Xi - version 2 spring 2026.zip
 .venv/
 front rotor/Front Rotors Gen Xi - version 2 spring 2026-1g Nonlinear.CWR
 front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill Nonlinear.CWR
+front rotor/Front Rotors Gen Xi - version 2 spring 2026-1g Nonlinear.STN
+front rotor/Front Rotors Gen Xi - version 2 spring 2026-1g Nonlinear.LCN
+front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill Nonlinear.STN
+
+# Future-proof: ignore all large solver output extensions anywhere in repo
+*.CWR
+*.HTQ
+*.HTO
+*.STN
+*.LCN
+*.zip
+
+# Solver transient / lock files (appear/disappear while solving, break git add)
+*.P??
+~$*
+*.clg
