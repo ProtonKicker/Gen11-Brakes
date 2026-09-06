@@ -1,0 +1,44 @@
+"version" "2025x"
+"materialSubType" "metal"
+"albedo" 0.776471 0.756863 0.737255
+"albedoTexture" ""
+"metallic" 1.0
+"roughness" 0.35
+"roughnessTexture" ""
+"anisotropy" 0.0
+"anisotropyRotation" 0.0
+"normal" "Cast_normal.png"
+"displacement" ""
+"translucency" 0.0
+"translucencyColor" 1.0 1.0 1.0
+"transparency" 0.0
+"cutoutOpacity" 1.0
+"cutoutOpacityTexture" ""
+"specular" 1.0
+"specularTint" 1.0 1.0 1.0
+"thinFilm" 0.0
+"thinFilmThickness" 0.4
+"thinFilmThicknessTexture" ""
+"thinFilmIOR" 1.3
+"sheenColor" 0.0 0.0 0.0
+"sheenRoughness" 0.5
+"flakeCoverage" 0.0
+"flakeColor" 1.0 1.0 1.0
+"flakeSize" 0.0
+"flakeRoughness" 0.0
+"flipFlop" 0.0
+"flipFlopColor" 1.0 1.0 1.0
+"clearcoat" 0.0
+"clearcoatRoughness" 0.0
+"clearcoatNormal" ""
+"emissionColor" 1.0 1.0 1.0
+"emissionValue" 0.0
+"emissionMode" 0
+"emissionEnergyNormalization" 0
+"thinWalled" 1
+"ior" 1.5
+"abbeNumber" 0.0
+"attenuationColor" 1.0 1.0 1.0
+"attenuationDistance" 100000.0
+"subsurfaceColor" 0.0 0.0 0.0
+"subsurfaceAnisotropy" 0.0
