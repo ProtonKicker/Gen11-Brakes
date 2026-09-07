@@ -1,0 +1,8 @@
+[StartTime]
+front rotor-1g thermal.MFC=
+[SolverState]
+front rotor-1g thermal.MFC=2
+[ShowMin]
+front rotor-1g thermal.MFC=yes
+[StudyType]
+front rotor-1g thermal.MFC=-1
