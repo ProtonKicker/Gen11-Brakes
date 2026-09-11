@@ -1,0 +1,61 @@
+{
+  "manifestVersion": 2,
+  "kv": {
+    "fileName": "20260729T143336Z.bolt.gz",
+    "size": 5543,
+    "compression": 1
+  },
+  "sql": {
+    "fileName": "20260729T143336Z.sqlite.gz",
+    "size": 3447,
+    "compression": 1
+  },
+  "buckets": [
+    {
+      "organizationID": "dab952c62b895026",
+      "organizationName": "calsol",
+      "bucketID": "d0f0697c3f6888d4",
+      "bucketName": "2026-07-25-asc_day_1234_telemetry",
+      "defaultRetentionPolicy": "autogen",
+      "retentionPolicies": [
+        {
+          "name": "autogen",
+          "replicaN": 1,
+          "duration": 0,
+          "shardGroupDuration": 604800000000000,
+          "shardGroups": [
+            {
+              "id": 30,
+              "startTime": "2026-07-20T00:00:00Z",
+              "endTime": "2026-07-27T00:00:00Z",
+              "shards": [
+                {
+                  "id": 30,
+                  "shardOwners": [],
+                  "fileName": "20260729T143336Z.30.tar.gz",
+                  "size": 67592080,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 34,
+              "startTime": "2026-07-27T00:00:00Z",
+              "endTime": "2026-08-03T00:00:00Z",
+              "shards": [
+                {
+                  "id": 34,
+                  "shardOwners": [],
+                  "fileName": "20260729T143336Z.34.tar.gz",
+                  "size": 72734521,
+                  "compression": 1
+                }
+              ]
+            }
+          ],
+          "subscriptions": []
+        }
+      ]
+    }
+  ]
+}

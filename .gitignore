@@ -29,3 +29,5 @@ front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill Nonlinear.STN
 *.P??
 ~$*
 *.clg
+telem/_inspect/route_export.lp
+telem/_analysis/route_export.lp
