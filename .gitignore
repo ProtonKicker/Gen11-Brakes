@@ -1,33 +1,36 @@
-﻿# Large simulation result files (>100MB) - kept local only
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill.CWR
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill.HTQ
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Cycle.CWR
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Cycle.HTQ
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Cycle.HTO
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-1G Braking.CWR
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-1G Braking.HTQ
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill.HTO
-front rotor/Front Rotors Gen Xi - version 2 spring 2026.zip
+# ============================================================================
+# Patterns are extension-only and path-agnostic on purpose: folders in this
+# repo get renamed/moved (e.g. telem/ -> misc/telem/), and an anchored path
+# rule silently stops matching when that happens.
+# ============================================================================
 
 # Python virtual environment
 .venv/
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-1g Nonlinear.CWR
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill Nonlinear.CWR
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-1g Nonlinear.STN
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-1g Nonlinear.LCN
-front rotor/Front Rotors Gen Xi - version 2 spring 2026-Downhill Nonlinear.STN
 
-# Future-proof: ignore all large solver output extensions anywhere in repo
+# Qoder local IDE settings
+.qoder/
+
+# --- ANSYS / solver generated output: regenerable, routinely 100MB-1.3GB -----
 *.CWR
 *.HTQ
 *.HTO
 *.STN
 *.LCN
+*.clg
+
+# Solver per-process lock files (.P00 .. .P99), appear/disappear mid-solve.
+# Digit-anchored so SolidWorks *.p2m / *.p2s appearance files stay tracked.
+*.P[0-9][0-9]
+*.p[0-9][0-9]
+
+# --- Archives ----------------------------------------------------------------
 *.zip
 
-# Solver transient / lock files (appear/disappear while solving, break git add)
-*.P??
+# --- Telemetry exports and shards (local only) --------------------------------
+*.lp
+*.tsm
+*.tar
+*.gz
+
+# Office / SolidWorks lock files created while a file is open
 ~$*
-*.clg
-telem/_inspect/route_export.lp
-telem/_analysis/route_export.lp
