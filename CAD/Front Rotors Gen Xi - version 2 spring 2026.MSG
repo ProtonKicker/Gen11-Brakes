@@ -37,3 +37,39 @@ End study: Cycle Nonlinear Thursday, September 3, 2026 11:39:09 AM
 Unable to create the plot due to:
 
 The requested quantity cannot be found in the result file. You can modify the quantity type under Result Options and rerun the study to plot the requested result.
+Start study: Position 1 Wednesday, October 14, 2026 4:33:03 PM
+End study: Position 1 Wednesday, October 14, 2026 4:33:07 PM
+Start study: Position 2 Wednesday, October 14, 2026 4:33:07 PM
+End study: Position 2 Wednesday, October 14, 2026 4:33:11 PM
+Start study: Position 3 Wednesday, October 14, 2026 4:33:11 PM
+End study: Position 3 Wednesday, October 14, 2026 4:33:15 PM
+Start study: Position 4 Wednesday, October 14, 2026 4:33:15 PM
+End study: Position 4 Wednesday, October 14, 2026 4:33:19 PM
+Start study: Position 5 Wednesday, October 14, 2026 4:33:19 PM
+End study: Position 5 Wednesday, October 14, 2026 4:33:23 PM
+Start study: Rev Position 1 Wednesday, October 14, 2026 4:33:23 PM
+End study: Rev Position 1 Wednesday, October 14, 2026 4:33:27 PM
+Start study: Rev Position 2 Wednesday, October 14, 2026 4:33:27 PM
+End study: Rev Position 2 Wednesday, October 14, 2026 4:33:31 PM
+Start study: Rev Position 3 Wednesday, October 14, 2026 4:33:31 PM
+End study: Rev Position 3 Wednesday, October 14, 2026 4:33:35 PM
+Start study: Rev Position 4 Wednesday, October 14, 2026 4:33:35 PM
+End study: Rev Position 4 Wednesday, October 14, 2026 4:33:39 PM
+Start study: Rev Position 5 Wednesday, October 14, 2026 4:33:39 PM
+End study: Rev Position 5 Wednesday, October 14, 2026 4:33:43 PM
+Start study: Position 3 Wednesday, October 14, 2026 4:35:08 PM
+End study: Position 3 Wednesday, October 14, 2026 4:35:09 PM
+Start study: Position 4 Wednesday, October 14, 2026 4:35:13 PM
+End study: Position 4 Wednesday, October 14, 2026 4:35:14 PM
+Start study: Position 5 Wednesday, October 14, 2026 4:35:18 PM
+End study: Position 5 Wednesday, October 14, 2026 4:35:19 PM
+Start study: Rev Position 1 Wednesday, October 14, 2026 4:35:24 PM
+End study: Rev Position 1 Wednesday, October 14, 2026 4:35:25 PM
+Start study: Rev Position 2 Wednesday, October 14, 2026 4:35:30 PM
+End study: Rev Position 2 Wednesday, October 14, 2026 4:35:31 PM
+Start study: Rev Position 3 Wednesday, October 14, 2026 4:35:36 PM
+End study: Rev Position 3 Wednesday, October 14, 2026 4:35:37 PM
+Start study: Rev Position 4 Wednesday, October 14, 2026 4:35:41 PM
+End study: Rev Position 4 Wednesday, October 14, 2026 4:35:42 PM
+Start study: Rev Position 5 Wednesday, October 14, 2026 4:35:46 PM
+End study: Rev Position 5 Wednesday, October 14, 2026 4:35:48 PM
