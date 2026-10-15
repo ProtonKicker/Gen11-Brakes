@@ -1,0 +1,66 @@
+ MAS.KSKY ORIGINAL           9
+ I_PCGSWITCH MAIN_RET_2 =            0           0
+ MAS.KSKY 2           9
+ TOTSUR,TOTVOL  7.2937489E-02  1.0336881E-04
+ TOTVOL,TOTSUR,SURVOL  1.0336881E-04  7.2937489E-02   190.5622    
+ TOTVOL,TOTSUR,SURVOL  1.0336881E-04  7.2937489E-02   190.5622               9
+ NSTARMAIN: w/out contact LSTFS LDIG                2447292       73506
+ PROGRESS(0):  KSTEP KEQT IBEND            1           0        1000
+ PROGRESS(2):  
+ NELCUR IDG_TYPE NS+MC+1 STRBUF,RJ_RATIO_MIN,RJ_RATIO_MAX RHEX8        12245
+           0          45   1.009583       1.00000000000000     
+   2.65499874668829       0.000000000000000E+000
+ PROGRESS(0):  KSTEP KEQT IBEND            2           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            3           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            4           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            5           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            6           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            7           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            8           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND            9           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           10           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           11           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           12           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           13           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           14           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           15           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           16           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           17           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           18           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           19           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           20           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           21           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           22           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           23           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           24           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           25           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           26           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           27           0        1000
+ PROGRESS(2):  
+ PROGRESS(0):  KSTEP KEQT IBEND           28           0        1000
+ PROGRESS(2):  
