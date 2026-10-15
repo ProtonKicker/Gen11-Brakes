@@ -23,7 +23,7 @@ File naming:
 
 ## Sim 01 — 1G Braking(-Default-)
 
-**Exports (expected paths)**
+**Exports**
 
 - Contour: `solidworks_front_rotors_gen_xi_v2_spring_2026/01_1g_braking_default/temp_contour_t3.05s_step61_k.png`
 - Response graph: `solidworks_front_rotors_gen_xi_v2_spring_2026/01_1g_braking_default/temp_vs_time_node4126_k.png`
@@ -43,7 +43,7 @@ File naming:
 
 ## Sim 02 — Downhill(-Default-)
 
-**Exports (expected paths)**
+**Exports**
 
 - Contour: `solidworks_front_rotors_gen_xi_v2_spring_2026/02_downhill_default/temp_contour_t0.40s_step4_k.png`
 - Response graph: `solidworks_front_rotors_gen_xi_v2_spring_2026/02_downhill_default/temp_vs_time_node9745_k.png`
