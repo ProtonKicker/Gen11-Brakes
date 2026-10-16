@@ -19,7 +19,7 @@ File naming:
 |---:|---|---|---|---|
 | 01 | `1G Braking(-Default-)` | Transient thermal | `t=3.05 s (step 61)` | Screenshot shows node `4126` at ~max temp |
 | 02 | `Downhill(-Default-)` | Transient thermal | `t=0.4 s (step 4)` | Contour screenshot is early-time; graph runs to ~`123.6 s` |
-| 03 | (pending) | (pending) | (pending) | Waiting on images |
+| 03 | `Cycle(-Default-)` | Transient thermal | `t=55.1 s (step 551)` | Multi-event cycle; node `9783` peaks at ~`613.7 K` |
 
 ## Sim 01 — 1G Braking(-Default-)
 
@@ -62,9 +62,19 @@ File naming:
 
 - `CAD/Front Rotors Gen Xi - version 2 spring 2026-Downhill.*`
 
-## Sim 03 — Pending
+## Sim 03 — Cycle(-Default-)
 
-Drop the remaining screenshots into:
+**Exports**
 
-`solidworks_front_rotors_gen_xi_v2_spring_2026/03_<name_here>/`
+- Contour: `solidworks_front_rotors_gen_xi_v2_spring_2026/03_cycle_default/temp_contour_t55.1s_step551_k.png`
+- Response graph: `solidworks_front_rotors_gen_xi_v2_spring_2026/03_cycle_default/temp_vs_time_node9783_k.png`
+
+**From screenshot**
+
+- Model: `Front Rotors Gen Xi - version 2 spring 2026`
+- Plot type: `Thermal Thermal1`
+- Time: `55.1 s` (time step `551`)
+- Node: `9783`
+- Max temp (plot annotation): `6.137e+02 K` (~`613.7 K`)
+- Min temp (plot annotation): `3.222e+02 K` (~`322.2 K`)
 
