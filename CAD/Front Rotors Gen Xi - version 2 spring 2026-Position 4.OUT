@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: c:\users\tdxt\onedrive\documents\github\
-Date        : 10/26/2026     Time:   21:22:10
+Date        : 10/26/2026     Time:   21:28:54
 
 
  SYSTEM OF UNITS:
@@ -100,9 +100,9 @@ Date        : 10/26/2026     Time:   21:22:10
 
 
   T O T A L  S Y S T E M  D A T A                        
-   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =      315252
-   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       60191
-   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=      105540
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =      356994
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       68960
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=      119454
 
 
 
@@ -146,16 +146,16 @@ Date        : 10/26/2026     Time:   21:22:10
 
  MINIMUM/MAXIMUM DISPLACEMENTS
 
-  NODE       366       101396         6657            0            0            0
-  MIN.  -7.94578E-07 -8.43535E-05 -9.65156E-05   0.0000       0.0000       0.0000    
+  NODE      6862        31949         6609            0            0            0
+  MIN.  -5.61225E-07 -4.59840E-05 -4.69581E-05   0.0000       0.0000       0.0000    
 
-  NODE      6947         6742         6248            0            0            0
-  MAX.   7.61867E-07  4.02797E-05  3.81126E-05   0.0000       0.0000       0.0000    
+  NODE      9893        97735       112992            0            0            0
+  MAX.   5.62462E-07  1.72856E-05  1.74676E-05   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
-  NODE     79688
-  MAX.   1.15310E-04
+  NODE     89010
+  MAX.   6.18249E-05
 
 
 
@@ -168,7 +168,7 @@ Date        : 10/26/2026     Time:   21:22:10
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. 0.3503E-01 0.3070E+04 0.3070E+04 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. -.8769E-01 0.3070E+04 0.3070E+04 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -177,17 +177,17 @@ Date        : 10/26/2026     Time:   21:22:10
  MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
 ********************************************************************************
 
-  NODE      9667
-  MAX.     0.14548E+09
+  NODE      7036
+  MAX.     0.14142E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.229219E+00
-   Total Error Energy (TEE)         =  0.613330E-03
-   Ave. Percentage Error (APE)      =  0.365525E+01
+   Total Strain Energy (TSE)        =  0.120894E+00
+   Total Error Energy (TEE)         =  0.692319E-03
+   Ave. Percentage Error (APE)      =  0.534336E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           2
@@ -214,5 +214,5 @@ Date        : 10/26/2026     Time:   21:22:10
 
 
 T O T A L   S O L U T I O N   T I M E (sec) . . . . =       3
-   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         155
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         248
 
