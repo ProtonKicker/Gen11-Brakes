@@ -72,3 +72,65 @@ Start study: Rev Position 4 Tuesday, October 27, 2026 12:47:38 AM
 End study: Rev Position 4 Tuesday, October 27, 2026 12:47:43 AM
 Start study: Rev Position 5 Tuesday, October 27, 2026 12:47:47 AM
 End study: Rev Position 5 Tuesday, October 27, 2026 12:47:53 AM
+Start study: Position 3 Monday, October 26, 2026 9:30:41 PM
+End study: Position 3 Monday, October 26, 2026 9:30:46 PM
+Start study: Position 4 Monday, October 26, 2026 9:30:50 PM
+End study: Position 4 Monday, October 26, 2026 9:30:55 PM
+Start study: Position 5 Monday, October 26, 2026 9:30:59 PM
+End study: Position 5 Monday, October 26, 2026 9:31:04 PM
+Start study: Position 1 Monday, October 26, 2026 9:36:49 PM
+End study: Position 1 Monday, October 26, 2026 9:36:54 PM
+Start study: Position 2 Monday, October 26, 2026 9:36:58 PM
+End study: Position 2 Monday, October 26, 2026 9:37:03 PM
+Start study: Position 3 Monday, October 26, 2026 9:37:07 PM
+End study: Position 3 Monday, October 26, 2026 9:37:08 PM
+Start study: Position 4 Monday, October 26, 2026 9:37:12 PM
+End study: Position 4 Monday, October 26, 2026 9:37:17 PM
+Start study: Position 5 Monday, October 26, 2026 9:37:21 PM
+End study: Position 5 Monday, October 26, 2026 9:37:26 PM
+Start study: Rev Position 1 Monday, October 26, 2026 9:37:30 PM
+End study: Rev Position 1 Monday, October 26, 2026 9:37:35 PM
+Start study: Rev Position 2 Monday, October 26, 2026 9:37:39 PM
+End study: Rev Position 2 Monday, October 26, 2026 9:37:44 PM
+Start study: Rev Position 3 Monday, October 26, 2026 9:37:48 PM
+End study: Rev Position 3 Monday, October 26, 2026 9:37:53 PM
+Start study: Rev Position 4 Monday, October 26, 2026 9:37:57 PM
+End study: Rev Position 4 Monday, October 26, 2026 9:38:02 PM
+Start study: Rev Position 5 Monday, October 26, 2026 9:38:06 PM
+End study: Rev Position 5 Monday, October 26, 2026 9:38:11 PM
+Start study: 1G Braking Monday, October 26, 2026 9:50:55 PM
+End study: 1G Braking Monday, October 26, 2026 9:50:58 PM
+Start study: Position 1 Monday, October 26, 2026 9:56:05 PM
+End study: Position 1 Monday, October 26, 2026 9:56:10 PM
+Start study: Position 2 Monday, October 26, 2026 9:56:14 PM
+End study: Position 2 Monday, October 26, 2026 9:56:19 PM
+Start study: Position 3 Monday, October 26, 2026 9:56:23 PM
+End study: Position 3 Monday, October 26, 2026 9:56:27 PM
+Start study: Position 4 Monday, October 26, 2026 9:56:32 PM
+End study: Position 4 Monday, October 26, 2026 9:56:36 PM
+Start study: Position 5 Monday, October 26, 2026 9:56:40 PM
+End study: Position 5 Monday, October 26, 2026 9:56:45 PM
+Start study: Rev Position 1 Monday, October 26, 2026 9:56:49 PM
+End study: Rev Position 1 Monday, October 26, 2026 9:56:54 PM
+Start study: Rev Position 2 Monday, October 26, 2026 9:56:58 PM
+End study: Rev Position 2 Monday, October 26, 2026 9:57:03 PM
+Start study: Rev Position 3 Monday, October 26, 2026 9:57:07 PM
+End study: Rev Position 3 Monday, October 26, 2026 9:57:12 PM
+Start study: Rev Position 4 Monday, October 26, 2026 9:57:16 PM
+End study: Rev Position 4 Monday, October 26, 2026 9:57:21 PM
+Start study: Rev Position 5 Monday, October 26, 2026 9:57:25 PM
+End study: Rev Position 5 Monday, October 26, 2026 9:57:30 PM
+Start study: 1G Braking Monday, October 26, 2026 10:16:31 PM
+End study: 1G Braking Monday, October 26, 2026 10:16:34 PM
+Start study: Position 3 Monday, October 26, 2026 10:35:52 PM
+End study: Position 3 Monday, October 26, 2026 10:35:57 PM
+Start study: Position 4 Monday, October 26, 2026 10:36:01 PM
+End study: Position 4 Monday, October 26, 2026 10:36:06 PM
+Start study: Position 5 Monday, October 26, 2026 10:36:10 PM
+End study: Position 5 Monday, October 26, 2026 10:36:16 PM
+Start study: Position 3 Monday, October 26, 2026 10:37:40 PM
+End study: Position 3 Monday, October 26, 2026 10:37:44 PM
+Start study: Position 4 Monday, October 26, 2026 10:37:49 PM
+End study: Position 4 Monday, October 26, 2026 10:37:53 PM
+Start study: Position 5 Monday, October 26, 2026 10:37:57 PM
+End study: Position 5 Monday, October 26, 2026 10:38:02 PM
