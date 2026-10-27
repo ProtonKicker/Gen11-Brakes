@@ -23,6 +23,11 @@
 *.P[0-9][0-9]
 *.p[0-9][0-9]
 
+# Same thing for the checkpoint shards (.PC0 .. .PC9) and the solve lock (.WRK).
+# Digit-anchored so .PCG stays tracked.
+*.PC[0-9]
+*.WRK
+
 # --- Archives ----------------------------------------------------------------
 *.zip
 

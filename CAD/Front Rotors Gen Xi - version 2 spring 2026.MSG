@@ -134,3 +134,9 @@ Start study: Position 4 Monday, October 26, 2026 10:37:49 PM
 End study: Position 4 Monday, October 26, 2026 10:37:53 PM
 Start study: Position 5 Monday, October 26, 2026 10:37:57 PM
 End study: Position 5 Monday, October 26, 2026 10:38:02 PM
+Start study: 1G Braking Monday, October 26, 2026 10:44:03 PM
+End study: 1G Braking Monday, October 26, 2026 10:44:06 PM
+Start study: Downhill Monday, October 26, 2026 10:47:09 PM
+End study: Downhill Monday, October 26, 2026 10:47:12 PM
+Start study: 1G Braking Monday, October 26, 2026 11:00:09 PM
+End study: 1G Braking Monday, October 26, 2026 11:00:12 PM
