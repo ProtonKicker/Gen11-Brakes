@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: c:\users\tdxt\onedrive\documents\github\
-Date        : 10/26/2026     Time:   21:57:03
+Date        : 10/27/2026     Time:   00:52:14
 
 
  SYSTEM OF UNITS:
@@ -132,12 +132,12 @@ Date        : 10/26/2026     Time:   21:57:03
 
   S O L U T I O N   T I M E   l O G   (In Second)
 
-  Input Phase and Contact/Bond/Connector set up .......=    0.4
+  Input Phase and Contact/Bond/Connector set up .......=    0.3
   Stiffness + Contact + Connectors Computation  .......=    0.0
   SVD Solver ..........................................=    0.0
   Re-organization of Modeshapes .......................=    0.0
 
-  TOTAL SOLUTION ......................................=    0.5
+  TOTAL SOLUTION ......................................=    0.4
 
              D I S P L A C E M E N T S
 
@@ -214,5 +214,5 @@ Date        : 10/26/2026     Time:   21:57:03
 
 
 T O T A L   S O L U T I O N   T I M E (sec) . . . . =       2
-   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         171
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         158
 

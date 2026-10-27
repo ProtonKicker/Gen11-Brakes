@@ -140,3 +140,29 @@ Start study: Downhill Monday, October 26, 2026 10:47:09 PM
 End study: Downhill Monday, October 26, 2026 10:47:12 PM
 Start study: 1G Braking Monday, October 26, 2026 11:00:09 PM
 End study: 1G Braking Monday, October 26, 2026 11:00:12 PM
+Start study: 1G Braking Monday, October 26, 2026 11:13:19 PM
+End study: 1G Braking Monday, October 26, 2026 11:13:20 PM
+Start study: Downhill Monday, October 26, 2026 11:16:13 PM
+End study: Downhill Monday, October 26, 2026 11:16:16 PM
+Start study: Cycle Tuesday, October 27, 2026 12:37:01 AM
+End study: Cycle Tuesday, October 27, 2026 12:37:10 AM
+Start study: Position 1 Tuesday, October 27, 2026 12:51:42 AM
+End study: Position 1 Tuesday, October 27, 2026 12:51:44 AM
+Start study: Position 2 Tuesday, October 27, 2026 12:51:49 AM
+End study: Position 2 Tuesday, October 27, 2026 12:51:50 AM
+Start study: Position 3 Tuesday, October 27, 2026 12:51:54 AM
+End study: Position 3 Tuesday, October 27, 2026 12:51:55 AM
+Start study: Position 4 Tuesday, October 27, 2026 12:51:59 AM
+End study: Position 4 Tuesday, October 27, 2026 12:52:00 AM
+Start study: Position 5 Tuesday, October 27, 2026 12:52:03 AM
+End study: Position 5 Tuesday, October 27, 2026 12:52:04 AM
+Start study: Rev Position 1 Tuesday, October 27, 2026 12:52:07 AM
+End study: Rev Position 1 Tuesday, October 27, 2026 12:52:08 AM
+Start study: Rev Position 2 Tuesday, October 27, 2026 12:52:12 AM
+End study: Rev Position 2 Tuesday, October 27, 2026 12:52:13 AM
+Start study: Rev Position 3 Tuesday, October 27, 2026 12:52:17 AM
+End study: Rev Position 3 Tuesday, October 27, 2026 12:52:18 AM
+Start study: Rev Position 4 Tuesday, October 27, 2026 12:52:23 AM
+End study: Rev Position 4 Tuesday, October 27, 2026 12:52:24 AM
+Start study: Rev Position 5 Tuesday, October 27, 2026 12:52:28 AM
+End study: Rev Position 5 Tuesday, October 27, 2026 12:52:29 AM
