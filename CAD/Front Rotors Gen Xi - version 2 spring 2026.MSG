@@ -166,3 +166,5 @@ Start study: Rev Position 4 Tuesday, October 27, 2026 12:52:23 AM
 End study: Rev Position 4 Tuesday, October 27, 2026 12:52:24 AM
 Start study: Rev Position 5 Tuesday, October 27, 2026 12:52:28 AM
 End study: Rev Position 5 Tuesday, October 27, 2026 12:52:29 AM
+Start study: 1G Braking Thursday, October 29, 2026 4:05:37 AM
+End study: 1G Braking Thursday, October 29, 2026 4:05:38 AM

@@ -1,0 +1,16 @@
+[StartTime]
+front rotor-Static - def position.MFC=1s
+[SolverState]
+front rotor-Static - def position.MFC=2
+[MainFrame]
+front rotor-Static - def position.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJLCAAAAALLBAAAAABCEAAAAAOICAAAAA
+[ShowMin]
+front rotor-Static - def position.MFC=No
+[SolverType]
+front rotor-Static - def position.MFC=Linear Analysis
+[StudyType]
+front rotor-Static - def position.MFC=0
+[StudyName]
+front rotor-Static - def position.MFC=Static - def position
+[Solver]
+front rotor-Static - def position.MFC=Sparse
