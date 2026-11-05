@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: c:\users\tdxt\onedrive\documents\github\
-Date        : 10/27/2026     Time:   00:52:04
+Date        : 11/05/2026     Time:   05:36:52
 
 
  SYSTEM OF UNITS:
@@ -100,9 +100,9 @@ Date        : 10/27/2026     Time:   00:52:04
 
 
   T O T A L  S Y S T E M  D A T A                        
-   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =      323718
-   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       62118
-   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=      108362
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =      326316
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       62728
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=      109252
 
 
 
@@ -132,12 +132,12 @@ Date        : 10/27/2026     Time:   00:52:04
 
   S O L U T I O N   T I M E   l O G   (In Second)
 
-  Input Phase and Contact/Bond/Connector set up .......=    0.3
+  Input Phase and Contact/Bond/Connector set up .......=    0.4
   Stiffness + Contact + Connectors Computation  .......=    0.0
   SVD Solver ..........................................=    0.0
   Re-organization of Modeshapes .......................=    0.0
 
-  TOTAL SOLUTION ......................................=    0.3
+  TOTAL SOLUTION ......................................=    0.5
 
              D I S P L A C E M E N T S
 
@@ -146,16 +146,16 @@ Date        : 10/27/2026     Time:   00:52:04
 
  MINIMUM/MAXIMUM DISPLACEMENTS
 
-  NODE      3130        11179        44182            0            0            0
-  MIN.  -6.82002E-07 -8.61913E-05 -3.53828E-05   0.0000       0.0000       0.0000    
+  NODE      1025        11278        11650            0            0            0
+  MIN.  -6.52345E-07 -8.49585E-05 -3.44336E-05   0.0000       0.0000       0.0000    
 
-  NODE     98859        96719        95925            0            0            0
-  MAX.   6.37605E-07  2.76668E-05  5.91752E-05   0.0000       0.0000       0.0000    
+  NODE      3326        48767        54130            0            0            0
+  MAX.   6.43022E-07  2.67419E-05  5.79495E-05   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
-  NODE    107500
-  MAX.   9.37763E-05
+  NODE     35937
+  MAX.   9.23728E-05
 
 
 
@@ -168,7 +168,7 @@ Date        : 10/27/2026     Time:   00:52:04
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. -.2225E-01 0.3761E+04 -.2171E+04 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. 0.5449E-01 0.3760E+04 -.2171E+04 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -177,17 +177,17 @@ Date        : 10/27/2026     Time:   00:52:04
  MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
 ********************************************************************************
 
-  NODE     93462
-  MAX.     0.14013E+09
+  NODE     75957
+  MAX.     0.12057E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.186408E+00
-   Total Error Energy (TEE)         =  0.577362E-03
-   Ave. Percentage Error (APE)      =  0.393225E+01
+   Total Strain Energy (TSE)        =  0.183532E+00
+   Total Error Energy (TEE)         =  0.553781E-03
+   Ave. Percentage Error (APE)      =  0.388124E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           2
@@ -214,5 +214,5 @@ Date        : 10/27/2026     Time:   00:52:04
 
 
 T O T A L   S O L U T I O N   T I M E (sec) . . . . =       2
-   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         156
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         173
 
