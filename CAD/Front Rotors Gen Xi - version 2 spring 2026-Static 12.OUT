@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: C:\Users\tdxt\OneDrive\Documents\GitHub\
-Date        : 11/05/2026     Time:   20:10:02
+Date        : 11/05/2026     Time:   20:31:27
 
 
  SYSTEM OF UNITS:
@@ -93,12 +93,12 @@ Date        : 11/05/2026     Time:   20:10:02
 
 
   T O T A L  S Y S T E M  D A T A                        
-   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       83634
-   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          77
-   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       14312
-   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       28358
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       46755
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          76
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =        7982
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       16041
 
-   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     2915968
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1610752
    NUMBER OF PARTS  . . . . . . . . . . . . .  (NPARTS)  =           1
 
 
@@ -106,12 +106,12 @@ Date        : 11/05/2026     Time:   20:10:02
 
   S O L U T I O N   T I M E   l O G   (In Second)
 
-  Input Phase and Contact/Bond/Connector set up .......=    0.7
+  Input Phase and Contact/Bond/Connector set up .......=    0.5
   Stiffness + Contact + Connectors Computation  .......=    0.1
   SVD Solver ..........................................=    0.0
   Re-organization of Modeshapes .......................=    0.0
 
-  TOTAL SOLUTION ......................................=    0.8
+  TOTAL SOLUTION ......................................=    0.5
 
 
 
@@ -132,11 +132,11 @@ Date        : 11/05/2026     Time:   20:10:02
   ---------------------------------------------
 
     - Temperatures Loaded from Thermal Analyses
-           (From Time Step =    31 )
+           (From Time Step =    38 )
 
 
 
- TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.968650E+02
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.558612E+02
 
              D I S P L A C E M E N T S
 
@@ -145,16 +145,16 @@ Date        : 11/05/2026     Time:   20:10:02
 
  MINIMUM/MAXIMUM DISPLACEMENTS
 
-  NODE      6034        20562        26517            1            1            1
-  MIN.  -1.63850E-05 -1.53531E-04 -1.49552E-04   0.0000       0.0000       0.0000    
+  NODE        31         3180        15627            1            1            1
+  MIN.  -1.30328E-05 -1.18975E-04 -1.17372E-04   0.0000       0.0000       0.0000    
 
-  NODE      1943         2242         2129        28358        28358        28358
-  MAX.   1.43518E-05  1.53682E-04  1.51422E-04   0.0000       0.0000       0.0000    
+  NODE     13959         1272         1405        16041        16041        16041
+  MAX.   1.01808E-05  1.20683E-04  1.16591E-04   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
-  NODE     27934
-  MAX.   1.56175E-04
+  NODE      1272
+  MAX.   1.21325E-04
 
 
 
@@ -167,7 +167,7 @@ Date        : 11/05/2026     Time:   20:10:02
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. 0.4482E-04 -.7629E-04 0.3967E-03 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. 0.6628E-04 -.4959E-03 -.6218E-03 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -176,17 +176,17 @@ Date        : 11/05/2026     Time:   20:10:02
  MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
 ********************************************************************************
 
-  NODE      3447
-  MAX.     0.29542E+09
+  NODE       134
+  MAX.     0.22757E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.866475E+01
-   Total Error Energy (TEE)         =  0.102100E-01
-   Ave. Percentage Error (APE)      =  0.242657E+01
+   Total Strain Energy (TSE)        =  0.465619E+01
+   Total Error Energy (TEE)         =  0.526055E-02
+   Ave. Percentage Error (APE)      =  0.237609E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
@@ -219,10 +219,10 @@ Date        : 11/05/2026     Time:   20:10:02
      TOT_TIME =TOTAL SOLUTION TIME
 
           INP_PHASE STF_PHASE REN_PHASE SOL_PHASE CNT_PHASE REC_PHASE STS_PHASE LCS_PHASE  TOT_TIME 
-                  0         0         0         0         0         0         0         0         1
-                                                      (   0: 0: 1)
+                  0         0         0         0         0         0         0         0         0
+                                                      (   0: 0: 0)
 
 
 
-   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         306
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =           0
 
