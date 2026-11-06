@@ -1,0 +1,1235 @@
+
+****************************************************************
+****************************************************************
+**                                                            **
+**                                                            **
+**  SSS  III  M    M  U  U  L     A  TTTTT  III    OO   N   N **
+** S      I   MM  MM  U  U  L    A A   T     I    O  O  NN  N **
+**  SS    I   M MM M  U  U  L    AAA   T     I    O  O  N N N **
+**    S   I   M    M  U  U  L    A A   T     I    O  O  N  NN **
+** SSS   III  M    M   UU   LLL  A A   T    III    OO   N   N **
+**                                                            **
+**                                                            **
+**       SOLIDWORKS Simulation Heat Transfer 2026 SP2.1       **
+**                 Simulation Premium Package                 **
+**           Distributed By: SOLIDWORKS Corporation           **
+**               21255 Burbank Blvd Suite 400                 **
+**               Woodland Hills, California 91367             **
+**               Telephone Number (774)556-3100               **
+**         Copyright 1988-2017 SOLIDWORKS Corporation         **
+**                                                            **
+****************************************************************
+****************************************************************
+
+
+ SYSTEM OF UNITS:
+ International System of Units, SI, is used for all input/output data.
+ Common Quantities:
+ Length:meter, Mass:kilogram, Time:second, Temperature:kelvin
+ Force:newton, Pressure also stress:pascal, Energy:joule, Power:watt
+
+ NUMBER OF PHYSICAL CORES USED TO RUN SIMULATION:  0
+
+ Total number of nodes                      =     36708
+ Total number of elements                   =     18822
+
+ First order elements
+ Using PCG Solver
+
+ Final analysis time                        =    3.0600    
+ Time step increment                        =   0.10000    
+ Total number of time steps                 =        31
+
+ Type of analysis      :     Linear Transient
+
+
+Nodal temperature results at time step =     1     (Time =    0.100000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  341.90347    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     1  (Time = 0.10000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2964993.1      -44795215.      -7446475.2     -3.21907250E+08 -5.90737780E+09 -2.01579127E+09
+ Node             31              31              76              76              76              67
+ Max.      7153494.4      1.31275062E+08   44795362.      1.33424688E+08  2.01578465E+09  3.35091385E+08
+
+
+Nodal Heat Balance at time step =     1    (Time = 0.10000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     34277.526      6.12276256E-12  2.48349186E-04   0.0000000       0.0000000       6846.1490       23477.331    
+ Output   -4.6499314     -5.70720090E-12  -42.146306       0.0000000       0.0000000      -41076.879      -23477.331    
+
+ Total Heating applied to the system      =  34272.876    
+ Heat convected from system to environment=  42.146057    
+ Increase in the system internal energy   =  34230.730    
+ System heat balance=                     = 1.38243195E-10
+
+
+Nodal temperature results at time step =     2     (Time =    0.200000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  356.40281    
+   Tmin  =  310.92636    
+
+
+
+Nodal Gradient and Heat Flux at time step =     2  (Time = 0.20000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2805033.0      -42386462.      -6400082.3     -2.89677754E+08 -5.33896384E+09 -1.90738788E+09
+ Node             31              31              76              76              76              67
+ Max.      6437283.4      1.18643641E+08   42386397.      1.26226484E+08  1.90739079E+09  2.88003703E+08
+
+
+Nodal Heat Balance at time step =     2    (Time = 0.20000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     33118.759      7.05381972E-12  2.43502160E-04   0.0000000       0.0000000       6609.5183       24230.715    
+ Output   -4.4927384     -7.40392284E-12  -66.711676       0.0000000       0.0000000      -39657.073      -24230.715    
+
+ Total Heating applied to the system      =  33114.266    
+ Heat convected from system to environment=  66.711433    
+ Increase in the system internal energy   =  33047.555    
+ System heat balance=                     = 4.00177669E-11
+
+
+Nodal temperature results at time step =     3     (Time =    0.300000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  371.42149    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     3  (Time = 0.30000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2723632.3      -41159569.      -6106811.8     -2.78490764E+08 -5.13073706E+09 -1.85217599E+09
+ Node             31              31              76              76              76              67
+ Max.      6188683.6      1.14016379E+08   41159466.      1.22563452E+08  1.85218062E+09  2.74806533E+08
+
+
+Nodal Heat Balance at time step =     3    (Time = 0.30000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     31959.992      6.61086503E-12  2.24276126E-04   0.0000000       0.0000000       6373.3799       23682.366    
+ Output   -4.3355455     -7.25165389E-12  -88.762150       0.0000000       0.0000000      -38240.275      -23682.366    
+
+ Total Heating applied to the system      =  31955.657    
+ Heat convected from system to environment=  88.761926    
+ Increase in the system internal energy   =  31866.895    
+ System heat balance=                     = 2.40106601E-10
+
+
+Nodal temperature results at time step =     4     (Time =    0.400000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  386.32870    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     4  (Time = 0.40000001    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2621519.5      -39613158.      -5899003.7     -2.71311772E+08 -4.99254862E+09 -1.78258715E+09
+ Node             31              31              76              76              76              67
+ Max.      6029150.5      1.10945525E+08   39613048.      1.17968379E+08  1.78259211E+09  2.65455168E+08
+
+
+Nodal Heat Balance at time step =     4    (Time = 0.40000001    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     30801.225      7.35640509E-12  2.00615036E-04   0.0000000       0.0000000       6137.5877       22982.673    
+ Output   -4.1783525     -6.19853277E-12  -109.11279       0.0000000       0.0000000      -36825.522      -22982.673    
+
+ Total Heating applied to the system      =  30797.047    
+ Heat convected from system to environment=  109.11259    
+ Increase in the system internal energy   =  30687.935    
+ System heat balance=                     =-3.63797881E-11
+
+
+Nodal temperature results at time step =     5     (Time =    0.500000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  400.61991    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     5  (Time = 0.50000001    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2513325.4      -37974338.      -5696330.2     -2.64123698E+08 -4.85482064E+09 -1.70884017E+09
+ Node             31              31              76              76              76              67
+ Max.      5869415.5      1.07884903E+08   37974226.      1.13099644E+08  1.70884520E+09  2.56334858E+08
+
+
+Nodal Heat Balance at time step =     5    (Time = 0.50000001    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     29642.459      5.60357973E-12  1.85853223E-04   0.0000000       0.0000000       5902.1230       22241.606    
+ Output   -4.0211595     -6.43145052E-12  -127.82641       0.0000000       0.0000000      -35412.734      -22241.606    
+
+ Total Heating applied to the system      =  29638.437    
+ Heat convected from system to environment=  127.82622    
+ Increase in the system internal energy   =  29510.611    
+ System heat balance=                     = 6.18456397E-11
+
+
+Nodal temperature results at time step =     6     (Time =    0.600000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  414.31079    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     6  (Time = 0.60000001    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2404768.5      -36330695.      -5489693.1     -2.56356637E+08 -4.70755009E+09 -1.63487624E+09
+ Node             31              31              76              76              76              67
+ Max.      5696814.2      1.04612224E+08   36330583.      1.08214582E+08  1.63488127E+09  2.47036191E+08
+
+
+Nodal Heat Balance at time step =     6    (Time = 0.60000001    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     28483.692      6.35405472E-12  1.76016324E-04   0.0000000       0.0000000       5666.9872       21477.767    
+ Output   -3.8639665     -6.30851759E-12  -144.89611       0.0000000       0.0000000      -34001.919      -21477.767    
+
+ Total Heating applied to the system      =  28479.828    
+ Heat convected from system to environment=  144.89593    
+ Increase in the system internal energy   =  28334.932    
+ System heat balance=                     = 1.30967237E-10
+
+
+Nodal temperature results at time step =     7     (Time =    0.700000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  427.38542    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     7  (Time = 0.70000001    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2297456.7      -34706596.      -5278714.4     -2.48020188E+08 -4.55080256E+09 -1.56179184E+09
+ Node             31              31              76              76              76              67
+ Max.      5511559.7      1.01128946E+08   34706485.      1.03385550E+08  1.56179683E+09  2.37542147E+08
+
+
+Nodal Heat Balance at time step =     7    (Time = 0.70000001    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     27324.925      5.86931082E-12  1.61929044E-04   0.0000000       0.0000000       5432.1747       20697.831    
+ Output   -3.7067735     -6.11112705E-12  -160.34801       0.0000000       0.0000000      -32593.045      -20697.831    
+
+ Total Heating applied to the system      =  27321.218    
+ Heat convected from system to environment=  160.34784    
+ Increase in the system internal energy   =  27160.870    
+ System heat balance=                     = 9.45874490E-11
+
+
+Nodal temperature results at time step =     8     (Time =    0.800000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  439.83087    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     8  (Time = 0.80000001    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2191681.9      -33106330.      -5064133.0     -2.39210596E+08 -4.38616373E+09 -1.48977995E+09
+ Node             31              31              76              76              76              67
+ Max.      5315791.0       97470305.       33106221.       98625683.      1.48978486E+09  2.27885987E+08
+
+
+Nodal Heat Balance at time step =     8    (Time = 0.80000001    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     26166.158      6.16687218E-12  1.45510237E-04   0.0000000       0.0000000       5197.6859       19905.540    
+ Output   -3.5495806     -5.74354336E-12  -174.18271       0.0000000       0.0000000      -31186.112      -19905.540    
+
+ Total Heating applied to the system      =  26162.609    
+ Heat convected from system to environment=  174.18257    
+ Increase in the system internal energy   =  25988.426    
+ System heat balance=                     = 2.91038305E-11
+
+
+Nodal temperature results at time step =     9     (Time =    0.900000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  451.64039    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =     9  (Time = 0.90000001    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -2087344.4      -31528264.      -4846742.4     -2.30023698E+08 -4.21522908E+09 -1.41876706E+09
+ Node             31              31              76              76              76              67
+ Max.      5111637.7       93671757.       31528157.       93930500.      1.41877188E+09  2.18103407E+08
+
+
+Nodal Heat Balance at time step =     9    (Time = 0.90000001    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     25007.391      6.50964630E-12  1.33499427E-04   0.0000000       0.0000000       4963.5163       19103.371    
+ Output   -3.3923875     -6.12651540E-12  -186.42025       0.0000000       0.0000000      -29781.095      -19103.371    
+
+ Total Heating applied to the system      =  25003.998    
+ Heat convected from system to environment=  186.42011    
+ Increase in the system internal energy   =  24817.578    
+ System heat balance=                     = 2.91038305E-11
+
+
+Nodal temperature results at time step =    10     (Time =     1.00000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  462.80783    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    10  (Time =  1.0000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1984248.2      -29969329.      -4627210.3     -2.20539394E+08 -4.03933267E+09 -1.34861508E+09
+ Node             31              31              76              76              76              67
+ Max.      4900875.4       89762948.       29969224.       89291169.      1.34861978E+09  2.08224464E+08
+
+
+Nodal Heat Balance at time step =    10    (Time =  1.0000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     23848.624      5.95773432E-12  1.24513054E-04   0.0000000       0.0000000       4729.6663       18293.097    
+ Output   -3.2351946     -5.82733044E-12  -197.06102       0.0000000       0.0000000      -28377.994      -18293.097    
+
+ Total Heating applied to the system      =  23845.389    
+ Heat convected from system to environment=  197.06090    
+ Increase in the system internal energy   =  23648.328    
+ System heat balance=                     =-1.81898940E-11
+
+
+Nodal temperature results at time step =    11     (Time =     1.10000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  473.32831    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    11  (Time =  1.1000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1882193.0      -28426420.      -4406056.6     -2.10820755E+08 -3.85952886E+09 -1.27918434E+09
+ Node             31              31              76              76              76              67
+ Max.      4684905.7       85767308.       28426319.       84698685.      1.27918891E+09  1.98272546E+08
+
+
+Nodal Heat Balance at time step =    11    (Time =  1.1000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     22689.858      6.53023738E-12  1.14691640E-04   0.0000000       0.0000000       4496.1310       17476.005    
+ Output   -3.0780016     -5.78269503E-12  -206.12789       0.0000000       0.0000000      -26976.783      -17476.005    
+
+ Total Heating applied to the system      =  22686.780    
+ Heat convected from system to environment=  206.12777    
+ Increase in the system internal energy   =  22480.652    
+ System heat balance=                     =-1.09139364E-11
+
+
+Nodal temperature results at time step =    12     (Time =     1.20000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  483.19853    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    12  (Time =  1.2000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1781003.2      -26896826.      -4183676.3     -2.00916710E+08 -3.67663601E+09 -1.21035274E+09
+ Node             31              31              76              76              76              67
+ Max.      4464815.8       81703023.       26896728.       80145146.      1.21035717E+09  1.88265435E+08
+
+
+Nodal Heat Balance at time step =    12    (Time =  1.2000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     21531.091      6.06063653E-12  1.04677275E-04   0.0000000       0.0000000       4262.9051       16653.075    
+ Output   -2.9208087     -5.77919696E-12  -213.64747       0.0000000       0.0000000      -25577.428      -16653.075    
+
+ Total Heating applied to the system      =  21528.170    
+ Heat convected from system to environment=  213.64737    
+ Increase in the system internal energy   =  21314.523    
+ System heat balance=                     = 1.30967237E-10
+
+
+Nodal temperature results at time step =    13     (Time =     1.30000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  492.41673    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    13  (Time =  1.3000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1680533.0      -25378296.      -3960367.9     -1.90865056E+08 -3.49128643E+09 -1.14201904E+09
+ Node             31              31              76              76              76              67
+ Max.      4241445.7       77584143.       25378201.       75623986.      1.14202332E+09  1.78216557E+08
+
+
+Nodal Heat Balance at time step =    13    (Time =  1.3000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     20372.323      6.01567812E-12  9.43553178E-05   0.0000000       0.0000000       4029.9883       15825.097    
+ Output   -2.7636156     -6.31937534E-12  -219.62092       0.0000000       0.0000000      -24179.927      -15825.097    
+
+ Total Heating applied to the system      =  20369.559    
+ Heat convected from system to environment=  219.62082    
+ Increase in the system internal energy   =  20149.939    
+ System heat balance=                     =-8.18545232E-11
+
+
+Nodal temperature results at time step =    14     (Time =     1.40000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  500.98263    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    14  (Time =  1.4000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1580663.6      -23869001.      -3736355.6     -1.80695056E+08 -3.30396957E+09 -1.07410093E+09
+ Node             31              31              76              76              76              67
+ Max.      4015445.7       73421546.       23868910.       71129860.      1.07410504E+09  1.68136001E+08
+
+
+Nodal Heat Balance at time step =    14    (Time =  1.4000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     19213.559      7.98541092E-12  8.51631534E-05   0.0000000       0.0000000       3797.3755       14992.688    
+ Output   -2.6064229     -7.15563292E-12  -224.07724       0.0000000       0.0000000      -22784.250      -14992.688    
+
+ Total Heating applied to the system      =  19210.952    
+ Heat convected from system to environment=  224.07715    
+ Increase in the system internal energy   =  18986.875    
+ System heat balance=                     = 5.45696821E-12
+
+
+Nodal temperature results at time step =    15     (Time =     1.50000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  508.90019    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    15  (Time =  1.5000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1481298.2      -22367454.      -3511806.9     -1.70429363E+08 -3.11506417E+09 -1.00653148E+09
+ Node             31              31              76              76              76              67
+ Max.      3787319.2       69223648.       22367366.       66658420.      1.00653542E+09  1.58031310E+08
+
+
+Nodal Heat Balance at time step =    15    (Time =  1.5000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     18054.792      7.34106690E-12  7.70593556E-05   0.0000000       0.0000000       3565.0592       14156.338    
+ Output   -2.4492300     -7.37553754E-12  -227.04910       0.0000000       0.0000000      -21390.353      -14156.338    
+
+ Total Heating applied to the system      =  18052.343    
+ Heat convected from system to environment=  227.04902    
+ Increase in the system internal energy   =  17825.294    
+ System heat balance=                     = 1.09139364E-11
+
+
+Nodal temperature results at time step =    16     (Time =     1.60000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  516.18341    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    16  (Time =  1.6000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1382360.2      -20872473.      -3286853.1     -1.60085831E+08 -2.92486871E+09 -9.39257536E+08
+ Node             31              31              76              76              76              67
+ Max.      3557462.9       64997082.       20872390.       62206208.      9.39261300E+08  1.47908389E+08
+
+
+Nodal Heat Balance at time step =    16    (Time =  1.6000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     16896.024      8.15161683E-12  6.95502460E-05   0.0000000       0.0000000       3333.0456       13316.506    
+ Output   -2.2920369     -7.03259761E-12  -228.50661       0.0000000       0.0000000      -19998.271      -13316.506    
+
+ Total Heating applied to the system      =  16893.732    
+ Heat convected from system to environment=  228.50654    
+ Increase in the system internal energy   =  16665.226    
+ System heat balance=                     = 4.54747351E-11
+
+
+Nodal temperature results at time step =    17     (Time =     1.70000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  522.82635    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    17  (Time =  1.7000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1283786.1      -19383086.      -3061590.9     -1.49678440E+08 -2.73361670E+09 -8.72235290E+08
+ Node             31              31              76              76              76              67
+ Max.      3326187.6       60747038.       19383006.       57770374.      8.72238872E+08  1.37771590E+08
+
+
+Nodal Heat Balance at time step =    17    (Time =  1.7000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     15737.258      6.15300731E-12  6.29536146E-05   0.0000000       0.0000000       3101.3285       12473.539    
+ Output   -2.1348439     -7.27979003E-12  -228.48240       0.0000000       0.0000000      -18607.969      -12473.539    
+
+ Total Heating applied to the system      =  15735.123    
+ Heat convected from system to environment=  228.48233    
+ Increase in the system internal energy   =  15506.641    
+ System heat balance=                     =-4.18367563E-11
+
+
+Nodal temperature results at time step =    18     (Time =     1.80000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  528.83122    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    18  (Time =  1.8000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1185524.9      -17898508.      -2836095.9     -1.39218269E+08 -2.54149309E+09 -8.05429442E+08
+ Node             31              31              76              76              76              67
+ Max.      3093739.3       56477624.       17898432.       53348618.      8.05432840E+08  1.27624315E+08
+
+
+Nodal Heat Balance at time step =    18    (Time =  1.8000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     14578.490      6.20736613E-12  5.58461910E-05   0.0000000       0.0000000       2869.9072       11627.733    
+ Output   -1.9776508     -7.46122375E-12  -226.97825       0.0000000       0.0000000      -17219.441      -11627.733    
+
+ Total Heating applied to the system      =  14576.512    
+ Heat convected from system to environment=  226.97819    
+ Increase in the system internal energy   =  14349.534    
+ System heat balance=                     = 2.18278728E-11
+
+
+Nodal temperature results at time step =    19     (Time =     1.90000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  534.20222    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    19  (Time =  1.9000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -1087535.0      -16418100.      -2610426.9     -1.28714185E+08 -2.34864586E+09 -7.38811278E+08
+ Node             31              31              76              76              76              67
+ Max.      2860315.2       52192130.       16418028.       48939073.      7.38814488E+08  1.17469208E+08
+
+
+Nodal Heat Balance at time step =    19    (Time =  1.9000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     13419.723      7.56004482E-12  4.86778416E-05   0.0000000       0.0000000       2638.7816       10779.355    
+ Output   -1.8204579     -6.99406944E-12  -223.99649       0.0000000       0.0000000      -15832.688      -10779.355    
+
+ Total Heating applied to the system      =  13417.903    
+ Heat convected from system to environment=  223.99644    
+ Increase in the system internal energy   =  13193.906    
+ System heat balance=                     =-2.54658516E-11
+
+
+Nodal temperature results at time step =    20     (Time =     2.00000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  538.94395    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    20  (Time =  2.0000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -989782.26      -14941339.      -2384629.6     -1.18173291E+08 -2.15519340E+09 -6.72357243E+08
+ Node             31              31              76              76              76              67
+ Max.      2626073.1       47893187.       14941272.       44540202.      6.72360261E+08  1.07308332E+08
+
+
+Nodal Heat Balance at time step =    20    (Time =  2.0000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     12260.957      6.83639784E-12  4.26539847E-05   0.0000000       0.0000000       2407.9583       9928.7443    
+ Output   -1.6632649     -7.33979593E-12  -219.50339       0.0000000       0.0000000      -14447.748      -9928.7443    
+
+ Total Heating applied to the system      =  12259.293    
+ Heat convected from system to environment=  219.50335    
+ Increase in the system internal energy   =  12039.790    
+ System heat balance=                     = 4.72937245E-11
+
+
+Nodal temperature results at time step =    21     (Time =     2.10000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  543.06128    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    21  (Time =  2.1000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -892237.82      -13467782.      -2158737.5     -1.07601264E+08 -1.96123021E+09 -6.06047351E+08
+ Node             31              31              76              76              76              67
+ Max.      2391139.2       43582894.       13467719.       40150702.      6.06050176E+08   97143189.    
+
+
+Nodal Heat Balance at time step =    21    (Time =  2.1000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     11102.190      7.03644524E-12  3.71851226E-05   0.0000000       0.0000000       2177.4365       9076.0282    
+ Output   -1.5060719     -7.80002085E-12  -213.50234       0.0000000       0.0000000      -13064.618      -9076.0282    
+
+ Total Heating applied to the system      =  11100.684    
+ Heat convected from system to environment=  213.50230    
+ Increase in the system internal energy   =  10887.181    
+ System heat balance=                     =-3.45607987E-11
+
+
+Nodal temperature results at time step =    22     (Time =     2.20000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  546.55929    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    22  (Time =  2.2000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -794878.49      -11997072.      -1932778.9      -97002758.     -1.76683375E+09 -5.39865622E+08
+ Node             31              31              76              76              76              67
+ Max.      2155616.9       39262972.       11997014.       35769532.      5.39868252E+08   86975050.    
+
+
+Nodal Heat Balance at time step =    22    (Time =  2.2000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     9943.4244      7.53188727E-12  3.17359860E-05   0.0000000       0.0000000       1947.2231       8221.3967    
+ Output   -1.3488792     -7.90705251E-12  -205.96149       0.0000000       0.0000000      -11683.337      -8221.3967    
+
+ Total Heating applied to the system      =  9942.0755    
+ Heat convected from system to environment=  205.96146    
+ Increase in the system internal energy   =  9736.1141    
+ System heat balance=                     =-3.27418093E-11
+
+
+Nodal temperature results at time step =    23     (Time =     2.30000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  549.44323    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    23  (Time =  2.3000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -697684.41      -10528907.      -1706774.5      -86381515.     -1.57206615E+09 -4.73798384E+08
+ Node             31              31              76              76              76              67
+ Max.      1919589.2       34934803.       10528853.       31395798.      4.73800817E+08   76804852.    
+
+
+Nodal Heat Balance at time step =    23    (Time =  2.3000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     8784.6559      6.30461308E-12  2.70625690E-05   0.0000000       0.0000000       1717.3308       7365.0703    
+ Output   -1.1916860     -7.60611569E-12  -196.81145       0.0000000       0.0000000      -10303.984      -7365.0703    
+
+ Total Heating applied to the system      =  8783.4642    
+ Heat convected from system to environment=  196.81143    
+ Increase in the system internal energy   =  8586.6527    
+ System heat balance=                     =-1.45519152E-11
+
+
+Nodal temperature results at time step =    24     (Time =     2.40000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  551.71846    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    24  (Time =  2.4000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -600639.90      -9063046.2      -1480743.4      -75740724.     -1.37698047E+09 -4.07834843E+08
+ Node             31              31              76              76              76              67
+ Max.      1683127.2       30599566.       9062996.5       27028795.      4.07837078E+08   66633452.    
+
+
+Nodal Heat Balance at time step =    24    (Time =  2.4000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     7625.8912      8.11212760E-12  2.28442565E-05   0.0000000       0.0000000       1487.7827       6507.3114    
+ Output   -1.0344933     -5.96902077E-12  -185.94435       0.0000000       0.0000000      -8926.6951      -6507.3114    
+
+ Total Heating applied to the system      =  7624.8567    
+ Heat convected from system to environment=  185.94433    
+ Increase in the system internal energy   =  7438.9124    
+ System heat balance=                     = 1.72803993E-11
+
+
+Nodal temperature results at time step =    25     (Time =     2.50000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  553.39044    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    25  (Time =  2.5000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -503730.46      -7599268.7      -1254697.2      -65082890.     -1.18161814E+09 -3.41965057E+08
+ Node             31              31              76              76              76              67
+ Max.      1446286.4       26258181.       7599223.5       22667871.      3.41967092E+08   56461375.    
+
+
+Nodal Heat Balance at time step =    25    (Time =  2.5000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     6467.1232      7.93871766E-12  1.88589762E-05   0.0000000       0.0000000       1258.6065       5648.6762    
+ Output  -0.87730016     -7.60717015E-12  -173.21411       0.0000000       0.0000000      -7551.6383      -5648.6762    
+
+ Total Heating applied to the system      =  6466.2459    
+ Heat convected from system to environment=  173.21409    
+ Increase in the system internal energy   =  6293.0318    
+ System heat balance=                     = 1.72803993E-11
+
+
+Nodal temperature results at time step =    26     (Time =     2.60000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  554.46476    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    26  (Time =  2.6000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -406945.61      -6137415.4      -1028650.2      -54410267.     -9.86016632E+08 -2.76181857E+08
+ Node             31              31              76              76              76              67
+ Max.      1209117.1       21911481.       6137374.6       18312552.      2.76183691E+08   46289261.    
+
+
+Nodal Heat Balance at time step =    26    (Time =  2.6000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     5308.3552      7.32805497E-12  1.50210984E-05   0.0000000       0.0000000       1029.8559       4789.8166    
+ Output  -0.72010703     -7.77924790E-12  -158.35654       0.0000000       0.0000000      -6179.1344      -4789.8166    
+
+ Total Heating applied to the system      =  5307.6351    
+ Heat convected from system to environment=  158.35653    
+ Increase in the system internal energy   =  5149.2786    
+ System heat balance=                     = 8.18545232E-12
+
+
+Nodal temperature results at time step =    27     (Time =     2.70000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  554.95819    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    27  (Time =  2.7000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -310276.39      -4677351.9      -802614.19      -43724794.     -7.90208134E+08 -2.10479202E+08
+ Node             31              31              76              76              76              67
+ Max.      971662.08       17560181.       4677315.6       13962438.      2.10480835E+08   36117639.    
+
+
+Nodal Heat Balance at time step =    27    (Time =  2.7000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     4149.5900      7.60332651E-12  1.17408135E-05   0.0000000       0.0000000       804.37227       3934.6997    
+ Output  -0.56291428     -7.40302270E-12  -140.98956       0.0000000       0.0000000      -4812.4098      -3934.6997    
+
+ Total Heating applied to the system      =  4149.0271    
+ Heat convected from system to environment=  140.98955    
+ Increase in the system internal energy   =  4008.0376    
+ System heat balance=                     = 1.45519152E-11
+
+
+Nodal temperature results at time step =    28     (Time =     2.80000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  554.88964    
+   Tmin  =  310.92777    
+
+
+
+Nodal Gradient and Heat Flux at time step =    28  (Time =  2.8000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              76              67              31              31              76
+ Min.     -213719.25      -3219028.9      -576610.43      -33028427.     -5.94225397E+08 -1.44854874E+08
+ Node             31              31              76              76              76              67
+ Max.      733965.05       13205009.       3218997.2       9617366.4      1.44856302E+08   25947470.    
+
+
+Nodal Heat Balance at time step =    28    (Time =  2.8000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     2990.8220      6.88171977E-12  8.88482787E-06   0.0000000       0.0000000       822.94951       3245.3651    
+ Output  -0.40572115     -6.85274390E-12  -120.24481       0.0000000       0.0000000      -3693.1210      -3245.3651    
+
+ Total Heating applied to the system      =  2990.4163    
+ Heat convected from system to environment=  120.24481    
+ Increase in the system internal energy   =  2870.1715    
+ System heat balance=                     = 1.36424205E-11
+
+
+Nodal temperature results at time step =    29     (Time =     2.90000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  554.24442    
+   Tmin  =  310.92778    
+
+
+
+Nodal Gradient and Heat Flux at time step =    29  (Time =  2.9000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              13              67              31              31              13
+ Min.     -117278.14      -1829571.4      -350678.13      -22323631.     -3.98110238E+08  -82332601.    
+ Node             31              31              13              76              13              67
+ Max.      496080.70       8846894.2       1829613.4       5277516.3       82330713.       15780516.    
+
+
+Nodal Heat Balance at time step =    29    (Time =  2.9000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     1832.0569      7.51838022E-12  6.07149521E-06   0.0000000       0.0000000       1264.7779       2816.1814    
+ Output  -0.24852841     -6.36571152E-12  -94.356977       0.0000000       0.0000000      -3002.2294      -2816.1814    
+
+ Total Heating applied to the system      =  1831.8084    
+ Heat convected from system to environment=  94.356970    
+ Increase in the system internal energy   =  1737.4514    
+ System heat balance=                     = 1.27329258E-11
+
+
+Nodal temperature results at time step =    30     (Time =     3.00000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  553.03802    
+   Tmin  =  310.92778    
+
+
+
+Nodal Gradient and Heat Flux at time step =    30  (Time =  3.0000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             76              13              67              31              31              13
+ Min.     -21003.060      -718345.23      -124980.16      -11616239.     -2.01963663E+08  -32326721.    
+ Node             31              31              13              76              13              67
+ Max.      258138.63       4488081.4       718371.58       945137.71       32325535.       5624107.0    
+
+
+Nodal Heat Balance at time step =    30    (Time =  3.0000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     673.28904      8.04191828E-12  3.17043916E-06   0.0000000       0.0000000       2056.4287       2613.2658    
+ Output  -9.13352923E-02 -7.21028441E-12  -57.195887       0.0000000       0.0000000      -2672.4305      -2613.2658    
+
+ Total Heating applied to the system      =  673.19771    
+ Heat convected from system to environment=  57.195884    
+ Increase in the system internal energy   =  616.00182    
+ System heat balance=                     = 1.31876732E-11
+
+
+Nodal temperature results at time step =    31     (Time =     3.06000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  552.13032    
+   Tmin  =  310.92778    
+
+
+
+Nodal Gradient and Heat Flux at time step =    31  (Time =  3.0599999    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node             48              13              76              31              31              13
+ Min.     -3795.3450      -72308.267      -533170.90      -5407922.9      -88235877.      -3254641.6    
+ Node             31              31              13              48              13              76
+ Max.      120176.06       1960797.3       72325.369       170790.52       3253872.0       23992691.    
+
+
+Nodal Heat Balance at time step =    31    (Time =  3.0599999    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     0.0000000      9.11835413E-12  1.43642953E-06   0.0000000       0.0000000       2579.2061       2569.6439    
+ Output    0.0000000     -7.59834542E-12  -28.292463       0.0000000       0.0000000      -2550.9137      -2569.6439    
+
+ Heat convected from system to environment=  28.292462    
+ Decrease in the system internal energy   = -28.292462    
+ System heat balance=                     =-1.22781785E-11
+
+Maximum Memory Used in MegaBytes  (MAXMB)  =       130
+
+
+Solution Time log
+--------------------------------------------------------------------------------
+  Input phase                                     =          0.0
+  Assemblage of matrices                          =        154.0
+  Preconditioning of conductivity matrix          =         37.7
+  Solution of equations                           =         48.7
+  Miscellaneous calculations                      =          1.7
+  Total Solution Time                             =        242.0
+
+Maximum Memory Used in MegaBytes  (MAXMB)  =       130
+
