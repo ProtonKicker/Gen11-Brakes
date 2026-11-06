@@ -22,7 +22,7 @@
 ****************************************************************
 
 Problem name: C:\Users\tdxt\OneDrive\Documents\GitHub\
-Date        : 11/05/2026     Time:   20:31:27
+Date        : 11/05/2026     Time:   21:08:53
 
 
  SYSTEM OF UNITS:
@@ -136,7 +136,7 @@ Date        : 11/05/2026     Time:   20:31:27
 
 
 
- TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.558612E+02
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.104563E+03
 
              D I S P L A C E M E N T S
 
@@ -146,15 +146,15 @@ Date        : 11/05/2026     Time:   20:31:27
  MINIMUM/MAXIMUM DISPLACEMENTS
 
   NODE        31         3180        15627            1            1            1
-  MIN.  -1.30328E-05 -1.18975E-04 -1.17372E-04   0.0000       0.0000       0.0000    
+  MIN.  -1.21029E-05 -1.09632E-04 -1.08200E-04   0.0000       0.0000       0.0000    
 
   NODE     13959         1272         1405        16041        16041        16041
-  MAX.   1.01808E-05  1.20683E-04  1.16591E-04   0.0000       0.0000       0.0000    
+  MAX.   9.54445E-06  1.11198E-04  1.07466E-04   0.0000       0.0000       0.0000    
 
  MAXIMUM RESULTANT DISPLACEMENT
 
   NODE      1272
-  MAX.   1.21325E-04
+  MAX.   1.11797E-04
 
 
 
@@ -167,7 +167,7 @@ Date        : 11/05/2026     Time:   20:31:27
 
  FOR REQUESTED                 (Global Cartesian Coord. System)
     NODES         FX         FY         FZ         MX         MY         MZ
- Total React. 0.6628E-04 -.4959E-03 -.6218E-03 0.0000E+00 0.0000E+00 0.0000E+00
+ Total React. 0.5531E-04 0.1755E-03 -.9613E-03 0.0000E+00 0.0000E+00 0.0000E+00
   
 
 
@@ -177,16 +177,16 @@ Date        : 11/05/2026     Time:   20:31:27
 ********************************************************************************
 
   NODE       134
-  MAX.     0.22757E+09
+  MAX.     0.36715E+09
 
 
 
    E R R O R    E S T I M A T I O N
    (for requested elements)
 
-   Total Strain Energy (TSE)        =  0.465619E+01
-   Total Error Energy (TEE)         =  0.526055E-02
-   Ave. Percentage Error (APE)      =  0.237609E+01
+   Total Strain Energy (TSE)        =  0.705745E+01
+   Total Error Energy (TEE)         =  0.859393E-02
+   Ave. Percentage Error (APE)      =  0.246675E+01
      ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
 
    SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
