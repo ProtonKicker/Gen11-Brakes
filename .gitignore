@@ -39,3 +39,7 @@
 
 # Office / SolidWorks lock files created while a file is open
 ~$*
+
+# Order confirmation PDFs (one-off procurement docs, local only).
+# Filename-only pattern so it keeps matching if misc/ is moved.
+Order Confirmation #*.pdf
