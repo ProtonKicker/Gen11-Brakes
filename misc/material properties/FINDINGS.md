@@ -22,6 +22,38 @@ Source receipt: `misc/Order Confirmation # 10119376.pdf`
 
 ## 2. How to file the request
 
+**Ready-to-send email to the inside sales rep (recommended):**
+
+**To:** Deborah O'Donnell <odonnelld@dura-barms.com>
+**Subject:** Material data request — Dura-Bar 80-55-06, Sales Order 10119376
+
+```
+Hi Deborah,
+
+We purchased Dura-Bar 80-55-06 ductile iron from you under Sales Order #10119376 Rev 0
+(PO: CALSOL M.TEO 10 13 2026, Customer No. 418558):
+
+- Product: 80-55-06, 18.000" OD round x 0.500" L, saw cut, 2 EA
+
+For our design work and thermal FEA on parts machined from this bar, we need the
+following from the mill:
+
+1. The heat/lot number(s) for the bars on this order, plus the material test
+   report / certification (actual ladle chemistry and mechanical properties,
+   not just the grade minimums).
+2. The CCT (continuous cooling transformation) and TTT (isothermal transformation)
+   diagrams for this grade/heat chemistry, if available.
+3. Any guidance on microstructure/property changes from annealing this grade
+   (we'll be heat-treating the parts).
+
+PDFs or email attachments are fine. Happy to provide more order detail if needed.
+
+Thanks,
+Tovi Ding
+tovi@berkeley.edu
+DMS-UNIV CA Berkeley
+```
+
 Preferred: **Ask your inside sales rep directly** (fastest — they can pull the cert/heat data):
 - Deborah O'Donnell — odonnelld@dura-barms.com (above PO refs)
 
