@@ -1,4 +1,16 @@
 [StartTime]
-ASM - Sim-S2.MFC=
+ASM - Sim-S2.MFC=4m:8s
 [SolverState]
-ASM - Sim-S2.MFC=2
+ASM - Sim-S2.MFC=1
+[MainFrame]
+ASM - Sim-S2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJLCAAAAALLBAAAAABCEAAAAAHODAAAAA
+[ShowMin]
+ASM - Sim-S2.MFC=No
+[SolverType]
+ASM - Sim-S2.MFC=Linear Analysis
+[StudyType]
+ASM - Sim-S2.MFC=0
+[StudyName]
+ASM - Sim-S2.MFC=S2
+[Solver]
+ASM - Sim-S2.MFC=Iterative
