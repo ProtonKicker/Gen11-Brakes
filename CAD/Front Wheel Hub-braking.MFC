@@ -1,0 +1,16 @@
+[StartTime]
+Front Wheel Hub-braking.MFC=24s
+[SolverState]
+Front Wheel Hub-braking.MFC=1
+[MainFrame]
+Front Wheel Hub-braking.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMHEAAAAAPABAAAAAEOFAAAAALDDAAAAA
+[ShowMin]
+Front Wheel Hub-braking.MFC=No
+[SolverType]
+Front Wheel Hub-braking.MFC=Linear Analysis
+[StudyType]
+Front Wheel Hub-braking.MFC=0
+[StudyName]
+Front Wheel Hub-braking.MFC=braking
+[Solver]
+Front Wheel Hub-braking.MFC=Iterative
